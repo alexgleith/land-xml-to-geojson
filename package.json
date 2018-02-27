@@ -5,6 +5,11 @@
   "main": "index",
   "author": "Alex Leith",
   "license": "MIT",
+  "repository" :
+  { 
+    "type" : "git",
+    "url" : "https://github.com/alexgleith/land-xml-to-geojson"
+  },
   "files": [
     "index.js"
   ],
