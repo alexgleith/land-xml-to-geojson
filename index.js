@@ -52,8 +52,11 @@ function landxml2geojson(xml) {
             var origCoords = opc.CoordGeom[0].Line
 
             for (oc in origCoords) {
+                // VERY important note. This code does NOT handle the other two types
+                // of coordinate definitions, curves and irregular lines. TODO: fixme.
                 var start = origCoords[oc].Start[0].$.pntRef
-                // We don't use the end
+
+                // We don't use the end (it probably should be checked, because if the end isn't the start)
                 var end = origCoords[oc].End[0].$.pntRef
 
                 var startPoint = points[start]
