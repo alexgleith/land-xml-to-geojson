@@ -8,7 +8,7 @@ const featureCollection = helpers.featureCollection
 /**
  * Convert a LandXML file to GeoJSON
  */
-function landxml2geojson(xml) {
+function convert(xml) {
     var result = {}
 
     var points = {}
@@ -94,8 +94,4 @@ function landxml2geojson(xml) {
     return featureCollection(polygons)
 }
 
-function parseParcels(parcel) {
-
-}
-
-exports["default"] = landxml2geojson
+module.exports = { convert: convert }

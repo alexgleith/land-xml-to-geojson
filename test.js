@@ -5,7 +5,7 @@ const load = require('load-json-file')
 const write = require('write-json-file')
 const xml2js = require('xml2js')
 
-const landxml2geojson = require('./').default
+const landxml2geojson = require('./')
 
 const parser = new xml2js.Parser({ mergeAttrs: true })
 
@@ -40,7 +40,7 @@ test('landxml2json', t => {
         const name = fixture.name
         const xml = fixture.xml
 
-        const results = landxml2geojson(xml)
+        const results = landxml2geojson.convert(xml)
 
         if (process.env.REGEN) write.sync(directories.out + name + '.json', results)
         // t.equal(results, load.sync(directories.out + name + '.json'), name)
