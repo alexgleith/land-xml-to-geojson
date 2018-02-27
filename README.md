@@ -15,3 +15,5 @@ You can run the test with `yarn test` or `npm run test`.
 
 ###
 I retrieved the one test XML file from [landxml.org](http://www.landxml.org/webapps/landxmlsamples.aspx).
+
+And another from [www.spear.land.vic.gov.au](https://www.spear.land.vic.gov.au/spear/documents/eplan/PS619178.xml).

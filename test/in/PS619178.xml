@@ -1,0 +1,2955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2010 rel2 (http://www.altova.com) by Hamed Olfat (Land Victoria) -->
+<!-- Example showing a Natural Boundary (creek), and Multipart Parcels (Easements 3 and 4 and Restrictions 1 and 2)  -->
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" date="2013-01-15" time="03:57:06" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd">
+	<Units>
+		<Metric areaUnit="squareMeter" linearUnit="meter" volumeUnit="cubicMeter" temperatureUnit="celsius" pressureUnit="milliBars" angularUnit="decimal dd.mm.ss" directionUnit="decimal dd.mm.ss"/>
+	</Units>
+	<Application name="LISCAD" version="10.0.0.0">
+		<Author createdBy="LISTech Pty Ltd"/>
+	</Application>
+	<CoordinateSystem horizontalDatum="MGA94_Zone55" datum="MGA94_Zone55"/>
+	<FeatureDictionary name="xml-gov-au-vic-icsm-eplan-cif-protocol" version="1.0"/>
+	<CgPoints zoneNumber="55">
+		<CgPoint name="CGPNT-1" state="existing" pntSurv="control" oID="118210219">5770024.150 331679.860</CgPoint>
+		<CgPoint name="CGPNT-2" state="existing" pntSurv="traverse">5770028.009 331681.664</CgPoint>
+		<CgPoint name="CGPNT-3" state="existing" pntSurv="traverse">5770048.429 331657.210</CgPoint>
+		<CgPoint name="CGPNT-4" state="existing" pntSurv="traverse">5770062.216 331640.701</CgPoint>
+		<CgPoint name="CGPNT-5" state="existing" pntSurv="traverse">5770074.530 331625.945</CgPoint>
+		<CgPoint name="CGPNT-6" state="existing" pntSurv="traverse">5770079.241 331620.304</CgPoint>
+		<CgPoint name="CGPNT-7" state="existing" pntSurv="boundary">5770060.253 331635.756</CgPoint>
+		<CgPoint name="CGPNT-8" state="existing" pntSurv="boundary">5770043.159 331656.226</CgPoint>
+		<CgPoint name="CGPNT-9" state="existing" pntSurv="boundary">5770077.328 331615.309</CgPoint>
+		<CgPoint name="CGPNT-10" state="existing" pntSurv="traverse">5770066.938 331579.636</CgPoint>
+		<CgPoint name="CGPNT-11" state="existing" pntSurv="traverse">5770059.578 331539.894</CgPoint>
+		<CgPoint name="CGPNT-12" state="existing" pntSurv="traverse">5770070.795 331511.361</CgPoint>
+		<CgPoint name="CGPNT-13" state="existing" pntSurv="boundary">5770016.463 331640.198</CgPoint>
+		<CgPoint name="CGPNT-14" state="existing" pntSurv="boundary">5770009.656 331636.111</CgPoint>
+		<CgPoint name="CGPNT-15" state="existing" pntSurv="boundary">5770054.869 331642.203</CgPoint>
+		<CgPoint name="CGPNT-16" state="existing" pntSurv="boundary">5770054.953 331642.104</CgPoint>
+		<CgPoint name="CGPNT-17" state="existing" pntSurv="boundary">5770054.213 331638.319</CgPoint>
+		<CgPoint name="CGPNT-18" state="existing" pntSurv="boundary">5770054.303 331638.258</CgPoint>
+		<CgPoint name="CGPNT-19" state="existing" pntSurv="boundary">5770038.010 331628.590</CgPoint>
+		<CgPoint name="CGPNT-20" state="existing" pntSurv="boundary">5770038.092 331628.525</CgPoint>
+		<CgPoint name="CGPNT-21" state="existing" pntSurv="boundary">5770034.609 331619.956</CgPoint>
+		<CgPoint name="CGPNT-22" state="existing" pntSurv="boundary">5770034.706 331619.928</CgPoint>
+		<CgPoint name="CGPNT-23" state="existing" pntSurv="boundary">5770026.664 331623.086</CgPoint>
+		<CgPoint name="CGPNT-24" state="existing" pntSurv="boundary">5770017.750 331638.054</CgPoint>
+		<CgPoint name="CGPNT-25" state="existing" pntSurv="boundary">5770010.943 331633.968</CgPoint>
+		<CgPoint name="CGPNT-26" state="existing" pntSurv="boundary">5770000.174 331630.418</CgPoint>
+		<CgPoint name="CGPNT-27" state="existing" pntSurv="boundary">5770015.616 331604.699</CgPoint>
+		<CgPoint name="CGPNT-28" state="existing" pntSurv="boundary">5770029.839 331613.238</CgPoint>
+		<CgPoint name="CGPNT-29" state="existing" pntSurv="boundary">5770031.765 331612.480</CgPoint>
+		<CgPoint name="CGPNT-30" state="existing" pntSurv="boundary">5769989.081 331623.758</CgPoint>
+		<CgPoint name="CGPNT-31" state="existing" pntSurv="boundary">5769986.938 331622.471</CgPoint>
+		<CgPoint name="CGPNT-32" state="existing" pntSurv="boundary">5769983.028 331620.124</CgPoint>
+		<CgPoint name="CGPNT-33" state="existing" pntSurv="boundary">5770000.565 331590.915</CgPoint>
+		<CgPoint name="CGPNT-34" state="existing" pntSurv="boundary">5770004.852 331593.489</CgPoint>
+		<CgPoint name="CGPNT-35" state="existing" pntSurv="boundary">5770007.785 331588.602</CgPoint>
+		<CgPoint name="CGPNT-36" state="existing" pntSurv="boundary">5770013.453 331583.570</CgPoint>
+		<CgPoint name="CGPNT-37" state="existing" pntSurv="boundary">5770017.020 331585.711</CgPoint>
+		<CgPoint name="CGPNT-38" state="existing" pntSurv="boundary">5770019.163 331586.998</CgPoint>
+		<CgPoint name="CGPNT-39" state="existing" pntSurv="boundary">5770021.195 331588.218</CgPoint>
+		<CgPoint name="CGPNT-40" state="existing" pntSurv="boundary">5770025.687 331590.915</CgPoint>
+		<CgPoint name="CGPNT-41" state="existing" pntSurv="boundary">5770026.845 331599.951</CgPoint>
+		<CgPoint name="CGPNT-42" state="existing" pntSurv="boundary">5770030.064 331608.148</CgPoint>
+		<CgPoint name="CGPNT-43" state="existing" pntSurv="boundary">5770019.958 331595.792</CgPoint>
+		<CgPoint name="CGPNT-44" state="existing" pntSurv="boundary">5770018.328 331606.923</CgPoint>
+		<CgPoint name="CGPNT-45" state="existing" pntSurv="boundary">5770015.854 331606.560</CgPoint>
+		<CgPoint name="CGPNT-46" state="existing" pntSurv="boundary">5770017.485 331595.430</CgPoint>
+		<CgPoint name="CGPNT-47" state="existing" pntSurv="boundary">5769951.874 331601.419</CgPoint>
+		<CgPoint name="CGPNT-48" state="existing" pntSurv="boundary">5769958.421 331583.892</CgPoint>
+		<CgPoint name="CGPNT-49" state="existing" pntSurv="boundary">5769985.458 331596.634</CgPoint>
+		<CgPoint name="CGPNT-50" state="existing" pntSurv="boundary">5769991.984 331585.764</CgPoint>
+		<CgPoint name="CGPNT-51" state="existing" pntSurv="boundary">5769994.942 331587.539</CgPoint>
+		<CgPoint name="CGPNT-52" state="existing" pntSurv="boundary">5769997.085 331588.826</CgPoint>
+		<CgPoint name="CGPNT-53" state="existing" pntSurv="boundary">5769984.828 331598.025</CgPoint>
+		<CgPoint name="CGPNT-54" state="existing" pntSurv="boundary">5769986.971 331599.312</CgPoint>
+		<CgPoint name="CGPNT-55" state="existing" pntSurv="boundary">5770056.875 331639.801</CgPoint>
+		<CgPoint name="CGPNT-56" state="existing" pntSurv="boundary">5770066.605 331628.150</CgPoint>
+		<CgPoint name="CGPNT-57" state="existing" pntSurv="boundary">5770068.528 331625.847</CgPoint>
+		<CgPoint name="CGPNT-58" state="existing" pntSurv="boundary">5770075.350 331569.454</CgPoint>
+		<CgPoint name="CGPNT-59" state="existing" pntSurv="boundary">5770073.522 331569.533</CgPoint>
+		<CgPoint name="CGPNT-60" state="existing" pntSurv="boundary">5770075.586 331617.395</CgPoint>
+		<CgPoint name="CGPNT-61" state="existing" pntSurv="boundary">5770040.284 331570.966</CgPoint>
+		<CgPoint name="CGPNT-62" state="existing" pntSurv="boundary">5770039.292 331579.186</CgPoint>
+		<CgPoint name="CGPNT-63" state="existing" pntSurv="boundary">5770041.471 331596.196</CgPoint>
+		<CgPoint name="CGPNT-64" state="existing" pntSurv="boundary">5770050.171 331618.283</CgPoint>
+		<CgPoint name="CGPNT-65" state="existing" pntSurv="boundary">5770064.025 331626.601</CgPoint>
+		<CgPoint name="CGPNT-66" state="existing" pntSurv="boundary">5770037.653 331551.333</CgPoint>
+		<CgPoint name="CGPNT-67" state="existing" pntSurv="boundary">5770037.415 331549.559</CgPoint>
+		<CgPoint name="CGPNT-68" state="existing" pntSurv="boundary">5770046.918 331539.443</CgPoint>
+		<CgPoint name="CGPNT-69" state="existing" pntSurv="boundary">5770073.364 331523.409</CgPoint>
+		<CgPoint name="CGPNT-70" state="existing" pntSurv="boundary">5770072.991 331514.748</CgPoint>
+		<CgPoint name="CGPNT-71" state="existing" pntSurv="boundary">5770071.162 331514.827</CgPoint>
+		<CgPoint name="CGPNT-72" state="existing" pntSurv="boundary">5770069.993 331514.877</CgPoint>
+		<CgPoint name="CGPNT-73" state="existing" pntSurv="boundary">5770059.797 331535.152</CgPoint>
+		<CgPoint name="CGPNT-74" state="existing" pntSurv="boundary">5769963.785 331586.420</CgPoint>
+		<CgPoint name="CGPNT-75" state="existing" pntSurv="boundary">5769964.580 331569.880</CgPoint>
+		<CgPoint name="CGPNT-76" state="existing" pntSurv="boundary">5769973.848 331567.890</CgPoint>
+		<CgPoint name="CGPNT-77" state="existing" pntSurv="boundary">5769961.827 331585.498</CgPoint>
+		<CgPoint name="CGPNT-78" state="existing" pntSurv="boundary">5769962.656 331568.248</CgPoint>
+		<CgPoint name="CGPNT-79" state="existing" pntSurv="boundary">5769965.995 331564.715</CgPoint>
+		<CgPoint name="CGPNT-80" state="existing" pntSurv="boundary">5769996.102 331578.905</CgPoint>
+		<CgPoint name="CGPNT-81" state="existing" pntSurv="boundary">5769987.952 331529.773</CgPoint>
+		<CgPoint name="CGPNT-82" state="existing" pntSurv="boundary">5769992.639 331529.428</CgPoint>
+		<CgPoint name="CGPNT-83" state="existing" pntSurv="boundary">5770015.351 331562.133</CgPoint>
+		<CgPoint name="CGPNT-84" state="existing" pntSurv="boundary">5769972.561 331566.121</CgPoint>
+		<CgPoint name="CGPNT-85" state="existing" pntSurv="boundary">5769993.276 331530.346</CgPoint>
+		<CgPoint name="CGPNT-86" state="existing" pntSurv="boundary">5770015.805 331527.722</CgPoint>
+		<CgPoint name="CGPNT-87" state="existing" pntSurv="boundary">5770031.781 331550.728</CgPoint>
+		<CgPoint name="CGPNT-88" state="existing" pntSurv="boundary">5770029.316 331552.438</CgPoint>
+		<CgPoint name="CGPNT-89" state="existing" pntSurv="boundary">5770013.655 331529.886</CgPoint>
+		<CgPoint name="CGPNT-90" state="existing" pntSurv="boundary">5769995.061 331531.255</CgPoint>
+		<CgPoint name="CGPNT-91" state="existing" pntSurv="boundary">5770073.172 331518.947</CgPoint>
+		<CgPoint name="CGPNT-92" state="existing" pntSurv="boundary">5770056.669 331533.231</CgPoint>
+		<CgPoint name="CGPNT-93" state="existing" pntSurv="boundary">5770039.109 331621.361</CgPoint>
+		<CgPoint name="CGPNT-94" state="existing" pntSurv="boundary">5770042.742 331606.696</CgPoint>
+		<CgPoint name="CGPNT-95" state="existing" pntSurv="boundary">5770016.656 331579.177</CgPoint>
+		<CgPoint name="CGPNT-96" state="existing" pntSurv="boundary">5770020.542 331548.473</CgPoint>
+		<CgPoint name="CGPNT-97" state="existing" pntSurv="natural boundary">5769958.250 331542.405</CgPoint>
+		<CgPoint name="CGPNT-98" state="existing" pntSurv="boundary">5770070.263 331494.040</CgPoint>
+		<CgPoint name="CGPNT-99" state="existing" pntSurv="control" oID="317502030">5770128.696 331787.580</CgPoint>
+		<CgPoint name="CGPNT-100" state="existing" pntSurv="traverse">5770112.041 331768.898</CgPoint>
+		<CgPoint name="CGPNT-101" state="existing" pntSurv="reference">5770018.464 331765.057</CgPoint>
+		<CgPoint name="CGPNT-102" state="existing" pntSurv="traverse">5770026.998 331690.287</CgPoint>
+		<CgPoint name="CGPNT-103" state="existing" pntSurv="boundary">5770087.173 331617.056</CgPoint>
+		<CgPoint name="CGPNT-104" state="existing" pntSurv="boundary">5770071.406 331520.475</CgPoint>
+		<CgPoint name="CGPNT-105" state="existing" pntSurv="boundary">5770068.180 331516.808</CgPoint>
+		<CgPoint name="CGPNT-106" state="existing" pntSurv="boundary">5770071.598 331524.938</CgPoint>
+		<CgPoint name="CGPNT-107" state="existing" pntSurv="boundary">5770050.267 331639.915</CgPoint>
+		<CgPoint name="CGPNT-108" state="existing" pntSurv="boundary">5770042.064 331649.737</CgPoint>
+		<CgPoint name="CGPNT-109" state="existing" pntSurv="boundary">5770020.744 331636.936</CgPoint>
+		<CgPoint name="CGPNT-110" state="existing" pntSurv="boundary">5770028.033 331624.697</CgPoint>
+		<CgPoint name="CGPNT-111" state="existing" pntSurv="boundary">5770032.179 331623.063</CgPoint>
+		<CgPoint name="CGPNT-112" state="existing" pntSurv="boundary">5770035.270 331630.911</CgPoint>
+		<CgPoint name="CGPNT-113" state="existing" pntSurv="boundary">5770004.463 331627.161</CgPoint>
+		<CgPoint name="CGPNT-114" state="existing" pntSurv="boundary">5770016.301 331607.443</CgPoint>
+		<CgPoint name="CGPNT-115" state="existing" pntSurv="boundary">5770026.917 331613.817</CgPoint>
+		<CgPoint name="CGPNT-116" state="existing" pntSurv="boundary">5770028.089 331616.785</CgPoint>
+		<CgPoint name="CGPNT-117" state="existing" pntSurv="boundary">5770017.314 331634.877</CgPoint>
+		<CgPoint name="CGPNT-118" state="existing" pntSurv="boundary">5770013.901 331603.670</CgPoint>
+		<CgPoint name="CGPNT-119" state="existing" pntSurv="boundary">5770001.033 331625.102</CgPoint>
+		<CgPoint name="CGPNT-120" state="existing" pntSurv="boundary">5769989.889 331618.411</CgPoint>
+		<CgPoint name="CGPNT-121" state="existing" pntSurv="boundary">5769992.977 331613.267</CgPoint>
+		<CgPoint name="CGPNT-122" state="existing" pntSurv="boundary">5769996.406 331615.326</CgPoint>
+		<CgPoint name="CGPNT-123" state="existing" pntSurv="boundary">5770001.296 331607.181</CgPoint>
+		<CgPoint name="CGPNT-124" state="existing" pntSurv="boundary">5769997.009 331604.608</CgPoint>
+		<CgPoint name="CGPNT-125" state="existing" pntSurv="boundary">5770001.899 331596.464</CgPoint>
+		<CgPoint name="CGPNT-126" state="existing" pntSurv="boundary">5769985.031 331597.539</CgPoint>
+		<CgPoint name="CGPNT-127" state="existing" pntSurv="boundary">5769967.845 331589.439</CgPoint>
+		<CgPoint name="CGPNT-128" state="existing" pntSurv="boundary">5769963.350 331598.978</CgPoint>
+		<CgPoint name="CGPNT-129" state="existing" pntSurv="boundary">5769982.305 331610.358</CgPoint>
+		<CgPoint name="CGPNT-130" state="existing" pntSurv="boundary">5769985.393 331605.215</CgPoint>
+		<CgPoint name="CGPNT-131" state="existing" pntSurv="boundary">5769984.755 331597.825</CgPoint>
+		<CgPoint name="CGPNT-132" state="existing" pntSurv="boundary">5769962.267 331590.609</CgPoint>
+		<CgPoint name="CGPNT-133" state="existing" pntSurv="boundary">5769965.540 331587.247</CgPoint>
+		<CgPoint name="CGPNT-134" state="existing" pntSurv="boundary">5769962.205 331607.621</CgPoint>
+		<CgPoint name="CGPNT-135" state="existing" pntSurv="boundary">5769968.665 331584.038</CgPoint>
+		<CgPoint name="CGPNT-136" state="existing" pntSurv="boundary">5769970.841 331581.802</CgPoint>
+		<CgPoint name="CGPNT-137" state="existing" pntSurv="boundary">5769970.052 331574.767</CgPoint>
+		<CgPoint name="CGPNT-138" state="existing" pntSurv="boundary">5769974.139 331568.553</CgPoint>
+		<CgPoint name="CGPNT-139" state="existing" pntSurv="boundary">5769978.933 331584.531</CgPoint>
+		<CgPoint name="CGPNT-140" state="existing" pntSurv="boundary">5769978.980 331583.532</CgPoint>
+		<CgPoint name="CGPNT-141" state="existing" pntSurv="boundary">5769984.724 331583.808</CgPoint>
+		<CgPoint name="CGPNT-142" state="existing" pntSurv="boundary">5769987.923 331585.729</CgPoint>
+		<CgPoint name="CGPNT-143" state="existing" pntSurv="boundary">5769990.878 331580.808</CgPoint>
+		<CgPoint name="CGPNT-144" state="existing" pntSurv="boundary">5769986.534 331576.597</CgPoint>
+		<CgPoint name="CGPNT-145" state="existing" pntSurv="boundary">5769975.382 331571.340</CgPoint>
+		<CgPoint name="CGPNT-146" state="existing" pntSurv="boundary">5769972.400 331571.197</CgPoint>
+		<CgPoint name="CGPNT-147" state="existing" pntSurv="boundary">5769993.468 331576.558</CgPoint>
+		<CgPoint name="CGPNT-148" state="existing" pntSurv="boundary">5770003.646 331567.690</CgPoint>
+		<CgPoint name="CGPNT-149" state="existing" pntSurv="boundary">5769987.672 331554.199</CgPoint>
+		<CgPoint name="CGPNT-150" state="existing" pntSurv="boundary">5769974.694 331567.709</CgPoint>
+		<CgPoint name="CGPNT-151" state="existing" pntSurv="boundary">5769979.810 331570.121</CgPoint>
+		<CgPoint name="CGPNT-152" state="existing" pntSurv="boundary">5769978.847 331559.257</CgPoint>
+		<CgPoint name="CGPNT-153" state="existing" pntSurv="boundary">5769979.182 331563.037</CgPoint>
+		<CgPoint name="CGPNT-154" state="existing" pntSurv="boundary">5769989.927 331551.851</CgPoint>
+		<CgPoint name="CGPNT-155" state="existing" pntSurv="boundary">5769986.419 331546.971</CgPoint>
+		<CgPoint name="CGPNT-156" state="existing" pntSurv="boundary">5769993.837 331535.170</CgPoint>
+		<CgPoint name="CGPNT-157" state="existing" pntSurv="boundary">5769997.831 331536.905</CgPoint>
+		<CgPoint name="CGPNT-158" state="existing" pntSurv="boundary">5770014.176 331558.688</CgPoint>
+		<CgPoint name="CGPNT-159" state="existing" pntSurv="boundary">5770001.986 331538.710</CgPoint>
+		<CgPoint name="CGPNT-160" state="existing" pntSurv="boundary">5770024.362 331551.617</CgPoint>
+		<CgPoint name="CGPNT-161" state="existing" pntSurv="boundary">5770022.285 331544.776</CgPoint>
+		<CgPoint name="CGPNT-162" state="existing" pntSurv="boundary">5770020.970 331543.797</CgPoint>
+		<CgPoint name="CGPNT-163" state="existing" pntSurv="boundary">5770019.858 331538.809</CgPoint>
+		<CgPoint name="CGPNT-164" state="existing" pntSurv="boundary">5770018.919 331537.462</CgPoint>
+		<CgPoint name="CGPNT-165" state="existing" pntSurv="boundary">5770000.384 331538.828</CgPoint>
+		<CgPoint name="CGPNT-166" state="existing" pntSurv="boundary">5770031.004 331551.267</CgPoint>
+		<CgPoint name="CGPNT-167" state="existing" pntSurv="boundary">5770042.053 331558.255</CgPoint>
+		<CgPoint name="CGPNT-168" state="existing" pntSurv="boundary">5770038.476 331557.478</CgPoint>
+		<CgPoint name="CGPNT-169" state="existing" pntSurv="boundary">5770061.278 331544.244</CgPoint>
+		<CgPoint name="CGPNT-170" state="existing" pntSurv="boundary">5770073.479 331526.076</CgPoint>
+		<CgPoint name="CGPNT-171" state="existing" pntSurv="boundary">5770043.470 331568.827</CgPoint>
+		<CgPoint name="CGPNT-172" state="existing" pntSurv="boundary">5770056.477 331568.266</CgPoint>
+		<CgPoint name="CGPNT-173" state="existing" pntSurv="boundary">5770070.658 331530.277</CgPoint>
+		<CgPoint name="CGPNT-174" state="existing" pntSurv="boundary">5770071.841 331557.713</CgPoint>
+		<CgPoint name="CGPNT-175" state="existing" pntSurv="boundary">5770072.151 331495.339</CgPoint>
+		<CgPoint name="CGPNT-176" state="existing" pntSurv="control" oID="317502010">5769920.000 331770.000</CgPoint>
+		<CgPoint name="CGPNT-177" state="existing" pntSurv="control" oID="116690100">5770009.800 331764.600</CgPoint>
+		<CgPoint name="CGPNT-178" state="existing" pntSurv="sideshot">5770035.666 331636.922</CgPoint>
+		<CgPoint name="CGPNT-179" state="existing" pntSurv="sideshot">5770016.540 331622.448</CgPoint>
+		<CgPoint name="CGPNT-180" state="existing" pntSurv="sideshot">5770007.397 331603.647</CgPoint>
+		<CgPoint name="CGPNT-181" state="existing" pntSurv="sideshot">5769976.220 331604.040</CgPoint>
+		<CgPoint name="CGPNT-182" state="existing" pntSurv="sideshot">5769977.262 331581.511</CgPoint>
+		<CgPoint name="CGPNT-183" state="existing" pntSurv="sideshot">5769990.673 331552.925</CgPoint>
+		<CgPoint name="CGPNT-184" state="existing" pntSurv="sideshot">5770012.210 331542.655</CgPoint>
+		<CgPoint name="CGPNT-185" state="existing" pntSurv="sideshot">5770059.117 331542.857</CgPoint>
+		<CgPoint name="CGPNT-186" state="existing" pntSurv="sideshot">5770059.381 331598.028</CgPoint>
+		<CgPoint name="CGPNT-187" state="existing" pntSurv="sideshot">5770033.892 331595.831</CgPoint>
+		<CgPoint name="CGPNT-188" state="existing" pntSurv="sideshot">5770042.119 331631.066</CgPoint>
+		<CgPoint name="CGPNT-189" state="existing" pntSurv="sideshot">5770070.033 331517.651</CgPoint>
+		<CgPoint name="CGPNT-190" state="existing" pntSurv="sideshot">5769996.804 331530.146</CgPoint>
+		<CgPoint name="CGPNT-191" state="existing" pntSurv="sideshot">5770055.390 331536.134</CgPoint>
+		<CgPoint name="CGPNT-192" state="existing" pntSurv="sideshot">5769986.489 331605.648</CgPoint>
+		<CgPoint name="CGPNT-193" state="existing" pntSurv="sideshot">5770018.664 331596.317</CgPoint>
+		<CgPoint name="CGPNT-194" state="existing" pntSurv="sideshot">5770013.703 331636.961</CgPoint>
+		<CgPoint name="CGPNT-195" state="existing" pntSurv="sideshot">5770055.390 331536.134</CgPoint>
+		<CgPoint name="CGPNT-196" state="existing" pntSurv="sideshot">5770035.505 331638.422</CgPoint>
+		<CgPoint name="CGPNT-197" state="existing" pntSurv="sideshot">5770016.870 331621.160</CgPoint>
+		<CgPoint name="CGPNT-198" state="existing" pntSurv="sideshot">5770004.252 331610.783</CgPoint>
+		<CgPoint name="CGPNT-199" state="existing" pntSurv="sideshot">5769974.372 331599.124</CgPoint>
+		<CgPoint name="CGPNT-200" state="existing" pntSurv="sideshot">5769958.167 331595.757</CgPoint>
+		<CgPoint name="CGPNT-201" state="existing" pntSurv="sideshot">5769965.864 331575.981</CgPoint>
+		<CgPoint name="CGPNT-202" state="existing" pntSurv="sideshot">5769979.771 331578.419</CgPoint>
+		<CgPoint name="CGPNT-203" state="existing" pntSurv="sideshot">5769981.874 331548.991</CgPoint>
+		<CgPoint name="CGPNT-204" state="existing" pntSurv="sideshot">5769991.414 331566.531</CgPoint>
+		<CgPoint name="CGPNT-205" state="existing" pntSurv="sideshot">5770012.210 331532.987</CgPoint>
+		<CgPoint name="CGPNT-206" state="existing" pntSurv="sideshot">5770012.373 331547.105</CgPoint>
+		<CgPoint name="CGPNT-207" state="existing" pntSurv="sideshot">5770062.777 331549.552</CgPoint>
+		<CgPoint name="CGPNT-208" state="existing" pntSurv="sideshot">5770058.081 331536.501</CgPoint>
+		<CgPoint name="CGPNT-209" state="existing" pntSurv="sideshot">5770073.854 331555.717</CgPoint>
+		<CgPoint name="CGPNT-210" state="existing" pntSurv="sideshot">5770007.552 331512.019</CgPoint>
+		<CgPoint name="CGPNT-211" state="existing" pntSurv="sideshot">5770007.552 331512.019</CgPoint>
+		<CgPoint name="CGPNT-212" state="existing" pntSurv="sideshot">5770047.034 331559.876</CgPoint>
+		<CgPoint name="CGPNT-213" state="existing" pntSurv="sideshot">5770001.183 331588.916</CgPoint>
+		<CgPoint name="CGPNT-214" state="existing" pntSurv="sideshot">5770026.214 331598.183</CgPoint>
+		<CgPoint name="CGPNT-215" state="existing" pntSurv="sideshot">5770072.730 331634.258</CgPoint>
+		<CgPoint name="CGPNT-216" state="existing" pntSurv="control" oID="317502040" >5770074.730 331756.258</CgPoint>
+	</CgPoints>
+	<Parcels>
+		<!-- Extinguished Lots Creation -->
+		<Parcel name="1\LP48216" class="Lot" state="extinguished" parcelType="Single" area="9266.302">
+			<Center pntRef="CGPNT-212"/>
+			<CoordGeom name="CG-35">
+				<IrregularLine desc="GUNYONG CREEK">
+					<Start pntRef="CGPNT-97"/>
+					<End pntRef="CGPNT-98"/>
+					<PntList2D>5769958.250 331542.405 5769960.874 331535.172 5769964.695 331528.002 5769968.988 331521.133 5769974.612 331515.122 5769973.968 331512.074 5769972.251 331508.038 5769977.017 331501.083 5769982.340 331501.384 5769985.002 331503.960 5769995.606 331503.874 5770003.248 331502.543 5770004.579 331495.073 5770014.110 331497.134 5770020.807 331495.073 5770028.621 331492.411 5770038.495 331490.522 5770046.137 331488.977 5770051.118 331483.996 5770063.740 331486.830 5770067.518 331490.200 5770070.263 331494.040</PntList2D>
+				</IrregularLine>
+				<Line>
+					<Start pntRef="CGPNT-98"/>
+					<End pntRef="CGPNT-175"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-175"/>
+					<End pntRef="CGPNT-70"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-70"/>
+					<End pntRef="CGPNT-91"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-91"/>
+					<End pntRef="CGPNT-69"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-69"/>
+					<End pntRef="CGPNT-170"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-170"/>
+					<End pntRef="CGPNT-58"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-58"/>
+					<End pntRef="CGPNT-9"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-9"/>
+					<End pntRef="CGPNT-60"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-60"/>
+					<End pntRef="CGPNT-57"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-57"/>
+					<End pntRef="CGPNT-56"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-56"/>
+					<End pntRef="CGPNT-7"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-7"/>
+					<End pntRef="CGPNT-93"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-93"/>
+					<End pntRef="CGPNT-94"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-94"/>
+					<End pntRef="CGPNT-95"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-95"/>
+					<End pntRef="CGPNT-96"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-96"/>
+					<End pntRef="CGPNT-97"/>
+				</Line>
+			</CoordGeom>
+			<Title name="8322/311" titleType="Freehold"/>
+			<LocationAddress addressType="Primary" numberFirst="82">
+				<RoadName roadName="BELUGA" roadNameType="Street" roadType="Public"/>
+				<AdministrativeArea adminAreaName="MOUNT ELIZA" adminAreaType="Locality" adminAreaCode="3930"/>
+			</LocationAddress>
+		</Parcel>
+		<Parcel name="2\LP48216" class="Lot" state="extinguished" parcelType="Single" area="6804.939">
+			<Center pntRef="CGPNT-213"/>
+			<CoordGeom name="CG-36">
+				<IrregularLine desc="GUNYONG CREEK">
+					<Start pntRef="CGPNT-47"/>
+					<End pntRef="CGPNT-97"/>
+					<PntList2D>5769951.874 331601.419 5769946.878 331594.933 5769942.113 331587.034 5769944.002 331581.581 5769946.020 331576.429 5769949.368 331568.015 5769952.803 331560.287 5769955.550 331551.829 5769957.955 331544.960 5769958.250 331542.405</PntList2D>
+				</IrregularLine>
+				<Line>
+					<Start pntRef="CGPNT-97"/>
+					<End pntRef="CGPNT-96"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-96"/>
+					<End pntRef="CGPNT-95"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-95"/>
+					<End pntRef="CGPNT-94"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-94"/>
+					<End pntRef="CGPNT-93"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-93"/>
+					<End pntRef="CGPNT-7"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-7"/>
+					<End pntRef="CGPNT-55"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-55"/>
+					<End pntRef="CGPNT-16"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-16"/>
+					<End pntRef="CGPNT-15"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-15"/>
+					<End pntRef="CGPNT-8"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-8"/>
+					<End pntRef="CGPNT-13"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-13"/>
+					<End pntRef="CGPNT-14"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-14"/>
+					<End pntRef="CGPNT-26"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-26"/>
+					<End pntRef="CGPNT-30"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-30"/>
+					<End pntRef="CGPNT-31"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-31"/>
+					<End pntRef="CGPNT-32"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-32"/>
+					<End pntRef="CGPNT-134"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-134"/>
+					<End pntRef="CGPNT-47"/>
+				</Line>
+			</CoordGeom>
+			<Title name="8322/312" titleType="Freehold"/>
+			<LocationAddress addressType="Primary" numberFirst="82">
+				<RoadName roadName="BELUGA" roadNameType="Street" roadType="Public"/>
+				<AdministrativeArea adminAreaName="MOUNT ELIZA" adminAreaType="Locality" adminAreaCode="3930"/>
+			</LocationAddress>
+			
+		</Parcel>
+		<!-- New Lots Creation -->
+		<Parcel name="1\PS619178" class="Lot" state="created" parcelType="Single" area="718.578">
+			<Center pntRef="CGPNT-178"/>
+			<CoordGeom name="CG-1">
+				<Line>
+					<Start pntRef="CGPNT-8"/>
+					<End pntRef="CGPNT-13"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-13"/>
+					<End pntRef="CGPNT-24"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-24"/>
+					<End pntRef="CGPNT-23"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-23"/>
+					<End pntRef="CGPNT-21"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-21"/>
+					<End pntRef="CGPNT-19"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-19"/>
+					<End pntRef="CGPNT-17"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-17"/>
+					<End pntRef="CGPNT-15"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-15"/>
+					<End pntRef="CGPNT-8"/>
+				</Line>
+			</CoordGeom>
+			<Title name="RST1\PS619178" titleType="Restriction Benefit"/>
+			<Title name="RST1\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST3\PS619178" titleType="Restriction Burden"/>
+			<LocationAddress addressType="Primary" numberFirst="82">
+				<RoadName roadName="BELUGA" roadNameType="Street" roadType="Public"/>
+				<AdministrativeArea adminAreaName="MOUNT ELIZA" adminAreaType="Locality" adminAreaCode="3930"/>
+			</LocationAddress>
+		</Parcel>
+		<Parcel name="2\PS619178" class="Lot" state="created" parcelType="Single" area="599.836">
+			<Center pntRef="CGPNT-179"/>
+			<CoordGeom name="CG-2">
+				<Line>
+					<Start pntRef="CGPNT-26"/>
+					<End pntRef="CGPNT-27"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-27"/>
+					<End pntRef="CGPNT-28"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-28"/>
+					<End pntRef="CGPNT-29"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-29"/>
+					<End pntRef="CGPNT-22"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-22"/>
+					<End pntRef="CGPNT-21"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-21"/>
+					<End pntRef="CGPNT-23"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-23"/>
+					<End pntRef="CGPNT-24"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-24"/>
+					<End pntRef="CGPNT-13"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-13"/>
+					<End pntRef="CGPNT-14"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-14"/>
+					<End pntRef="CGPNT-26"/>
+				</Line>
+			</CoordGeom>
+			<Title name="RST1\PS619178" titleType="Restriction Benefit"/>
+			<Title name="RST1\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST3\PS619178" titleType="Restriction Burden"/>
+			<LocationAddress addressType="Primary" numberFirst="2">
+				<RoadName roadName="GUNYONG CREEK" roadNameType="Lane" roadType="Public"/>
+				<AdministrativeArea adminAreaName="MOUNT ELIZA" adminAreaType="Locality" adminAreaCode="3930"/>
+			</LocationAddress>
+		</Parcel>
+		<Parcel name="3\PS619178" class="Lot" state="created" parcelType="Single" area="1029.395">
+			<Center pntRef="CGPNT-180"/>
+			<CoordGeom name="CG-3">
+				<Line>
+					<Start pntRef="CGPNT-32"/>
+					<End pntRef="CGPNT-33"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-33"/>
+					<End pntRef="CGPNT-34"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-34"/>
+					<End pntRef="CGPNT-35"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-35"/>
+					<End pntRef="CGPNT-36"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-36"/>
+					<End pntRef="CGPNT-37"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-37"/>
+					<End pntRef="CGPNT-38"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-38"/>
+					<End pntRef="CGPNT-39"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-39"/>
+					<End pntRef="CGPNT-40"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-40"/>
+					<End pntRef="CGPNT-41"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-41"/>
+					<End pntRef="CGPNT-42"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-42"/>
+					<End pntRef="CGPNT-29"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-29"/>
+					<End pntRef="CGPNT-28"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-28"/>
+					<End pntRef="CGPNT-27"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-27"/>
+					<End pntRef="CGPNT-26"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-26"/>
+					<End pntRef="CGPNT-30"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-30"/>
+					<End pntRef="CGPNT-31"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-31"/>
+					<End pntRef="CGPNT-32"/>
+				</Line>
+			</CoordGeom>
+			<Title name="RST1\PS619178" titleType="Restriction Benefit"/>
+			<Title name="RST1\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST3\PS619178" titleType="Restriction Burden"/>
+			<LocationAddress addressType="Primary" numberFirst="3">
+				<RoadName roadName="GUNYONG CREEK" roadNameType="Lane" roadType="Public"/>
+				<AdministrativeArea adminAreaName="MOUNT ELIZA" adminAreaType="Locality" adminAreaCode="3930"/>
+			</LocationAddress>
+		</Parcel>
+		<Parcel name="4\PS619178" class="Lot" state="created" parcelType="Single" area="901.278">
+			<Center pntRef="CGPNT-181"/>
+			<CoordGeom name="CG-4">
+				<Line>
+					<Start pntRef="CGPNT-32"/>
+					<End pntRef="CGPNT-33"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-33"/>
+					<End pntRef="CGPNT-52"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-52"/>
+					<End pntRef="CGPNT-51"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-51"/>
+					<End pntRef="CGPNT-50"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-50"/>
+					<End pntRef="CGPNT-49"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-49"/>
+					<End pntRef="CGPNT-133"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-133"/>
+					<End pntRef="CGPNT-74"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-74"/>
+					<End pntRef="CGPNT-77"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-77"/>
+					<End pntRef="CGPNT-48"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-48"/>
+					<End pntRef="CGPNT-47"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-47"/>
+					<End pntRef="CGPNT-134"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-134"/>
+					<End pntRef="CGPNT-32"/>
+				</Line>
+			</CoordGeom>
+			<Title name="RST1\PS619178" titleType="Restriction Benefit"/>
+			<Title name="RST1\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST3\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST2\PS619178" titleType="Restriction Burden"/>
+			<LocationAddress addressType="Primary" numberFirst="4">
+				<RoadName roadName="GUNYONG CREEK" roadNameType="Lane" roadType="Public"/>
+				<AdministrativeArea adminAreaName="MOUNT ELIZA" adminAreaType="Locality" adminAreaCode="3930"/>
+			</LocationAddress>
+		</Parcel>
+		<Parcel name="5\PS619178" class="Lot" state="created" parcelType="Single" area="649.973">
+			<Center pntRef="CGPNT-182"/>
+			<CoordGeom name="CG-5">
+				<Line>
+					<Start pntRef="CGPNT-80"/>
+					<End pntRef="CGPNT-138"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-138"/>
+					<End pntRef="CGPNT-79"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-79"/>
+					<End pntRef="CGPNT-48"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-48"/>
+					<End pntRef="CGPNT-77"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-77"/>
+					<End pntRef="CGPNT-74"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-74"/>
+					<End pntRef="CGPNT-133"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-133"/>
+					<End pntRef="CGPNT-49"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-49"/>
+					<End pntRef="CGPNT-50"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-50"/>
+					<End pntRef="CGPNT-80"/>
+				</Line>
+			</CoordGeom>
+			<Title name="RST1\PS619178" titleType="Restriction Benefit"/>
+			<Title name="RST1\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST3\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST2\PS619178" titleType="Restriction Burden"/>
+			<LocationAddress addressType="Primary" numberFirst="5">
+				<RoadName roadName="GUNYONG CREEK" roadNameType="Lane" roadType="Public"/>
+				<AdministrativeArea adminAreaName="MOUNT ELIZA" adminAreaType="Locality" adminAreaCode="3930"/>
+			</LocationAddress>
+		</Parcel>
+		<Parcel name="6\PS619178" class="Lot" state="created" parcelType="Single" area="1303.701">
+			<Center pntRef="CGPNT-183"/>
+			<CoordGeom name="CG-6">
+				<Line>
+					<Start pntRef="CGPNT-85"/>
+					<End pntRef="CGPNT-157"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-157"/>
+					<End pntRef="CGPNT-83"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-83"/>
+					<End pntRef="CGPNT-80"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-80"/>
+					<End pntRef="CGPNT-138"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-138"/>
+					<End pntRef="CGPNT-79"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-79"/>
+					<End pntRef="CGPNT-81"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-81"/>
+					<End pntRef="CGPNT-82"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-82"/>
+					<End pntRef="CGPNT-85"/>
+				</Line>
+			</CoordGeom>
+			<Title name="RST1\PS619178" titleType="Restriction Benefit"/>
+			<Title name="RST1\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST3\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST2\PS619178" titleType="Restriction Burden"/>
+			<LocationAddress addressType="Primary" numberFirst="6">
+				<RoadName roadName="GUNYONG CREEK" roadNameType="Lane" roadType="Public"/>
+				<AdministrativeArea adminAreaName="MOUNT ELIZA" adminAreaType="Locality" adminAreaCode="3930"/>
+			</LocationAddress>
+		</Parcel>
+		<Parcel name="7\PS619178" class="Lot" state="created" parcelType="Single" area="678.365">
+			<Center pntRef="CGPNT-184"/>
+			<CoordGeom name="CG-7">
+				<Line>
+					<Start pntRef="CGPNT-87"/>
+					<End pntRef="CGPNT-166"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-166"/>
+					<End pntRef="CGPNT-88"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-88"/>
+					<End pntRef="CGPNT-83"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-83"/>
+					<End pntRef="CGPNT-157"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-157"/>
+					<End pntRef="CGPNT-85"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-85"/>
+					<End pntRef="CGPNT-82"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-82"/>
+					<End pntRef="CGPNT-86"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-86"/>
+					<End pntRef="CGPNT-87"/>
+				</Line>
+			</CoordGeom>
+			<Title name="RST1\PS619178" titleType="Restriction Benefit"/>
+			<Title name="RST1\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST3\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST2\PS619178" titleType="Restriction Burden"/>
+			<LocationAddress addressType="Primary" numberFirst="7">
+				<RoadName roadName="GUNYONG CREEK" roadNameType="Lane" roadType="Public"/>
+				<AdministrativeArea adminAreaName="MOUNT ELIZA" adminAreaType="Locality" adminAreaCode="3930"/>
+			</LocationAddress>
+		</Parcel>
+		<Parcel name="8\PS619178" class="Lot" state="created" parcelType="Single" area="1441.674">
+			<Center pntRef="CGPNT-185"/>
+			<CoordGeom name="CG-8">
+				<Line>
+					<Start pntRef="CGPNT-58"/>
+					<End pntRef="CGPNT-170"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-170"/>
+					<End pntRef="CGPNT-69"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-69"/>
+					<End pntRef="CGPNT-91"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-91"/>
+					<End pntRef="CGPNT-70"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-70"/>
+					<End pntRef="CGPNT-71"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-71"/>
+					<End pntRef="CGPNT-72"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-72"/>
+					<End pntRef="CGPNT-105"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-105"/>
+					<End pntRef="CGPNT-68"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-68"/>
+					<End pntRef="CGPNT-67"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-67"/>
+					<End pntRef="CGPNT-66"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-66"/>
+					<End pntRef="CGPNT-168"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-168"/>
+					<End pntRef="CGPNT-61"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-61"/>
+					<End pntRef="CGPNT-59"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-59"/>
+					<End pntRef="CGPNT-58"/>
+				</Line>
+			</CoordGeom>
+			<Title name="RST1\PS619178" titleType="Restriction Benefit"/>
+			<Title name="RST1\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST3\PS619178" titleType="Restriction Burden"/>
+			<Title name="RST2\PS619178" titleType="Restriction Burden"/>
+			<LocationAddress addressType="Primary" numberFirst="8">
+				<RoadName roadName="GUNYONG CREEK" roadNameType="Lane" roadType="Public"/>
+				<AdministrativeArea adminAreaName="MOUNT ELIZA" adminAreaType="Locality" adminAreaCode="3930"/>
+			</LocationAddress>
+		</Parcel>
+		<Parcel name="9\PS619178" class="Lot" state="created" parcelType="Single" area="1730.814">
+			<Center pntRef="CGPNT-186"/>
+			<CoordGeom name="CG-9">
+				<Line>
+					<Start pntRef="CGPNT-59"/>
+					<End pntRef="CGPNT-61"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-61"/>
+					<End pntRef="CGPNT-62"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-62"/>
+					<End pntRef="CGPNT-63"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-63"/>
+					<End pntRef="CGPNT-64"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-64"/>
+					<End pntRef="CGPNT-65"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-65"/>
+					<End pntRef="CGPNT-57"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-57"/>
+					<End pntRef="CGPNT-60"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-60"/>
+					<End pntRef="CGPNT-9"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-9"/>
+					<End pntRef="CGPNT-58"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-58"/>
+					<End pntRef="CGPNT-59"/>
+				</Line>
+			</CoordGeom>
+			<LocationAddress addressType="Primary" numberFirst="9">
+				<RoadName roadName="GUNYONG CREEK" roadNameType="Lane" roadType="Public"/>
+				<RoadName roadName="BELUGA" roadNameType="Street" roadType="Public"/>
+				<AdministrativeArea adminAreaName="MOUNT ELIZA" adminAreaType="Locality" adminAreaCode="3930"/>
+			</LocationAddress>
+		</Parcel>
+		<!-- Road Parcel Creation -->
+		<Parcel name="R1\PS619178" class="Road" state="created" parcelType="Single" area="2050.241" desc="ROAD1" owner="MORNINGTON PENINSULA SHIRE COUNCIL">
+			<Center pntRef="CGPNT-187"/>
+			<CoordGeom name="CG-10">
+				<Line>
+					<Start pntRef="CGPNT-61"/>
+					<End pntRef="CGPNT-168"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-168"/>
+					<End pntRef="CGPNT-66"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-66"/>
+					<End pntRef="CGPNT-67"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-67"/>
+					<End pntRef="CGPNT-87"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-87"/>
+					<End pntRef="CGPNT-166"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-166"/>
+					<End pntRef="CGPNT-88"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-88"/>
+					<End pntRef="CGPNT-83"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-83"/>
+					<End pntRef="CGPNT-80"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-80"/>
+					<End pntRef="CGPNT-50"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-50"/>
+					<End pntRef="CGPNT-51"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-51"/>
+					<End pntRef="CGPNT-52"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-52"/>
+					<End pntRef="CGPNT-33"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-33"/>
+					<End pntRef="CGPNT-34"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-34"/>
+					<End pntRef="CGPNT-35"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-35"/>
+					<End pntRef="CGPNT-36"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-36"/>
+					<End pntRef="CGPNT-37"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-37"/>
+					<End pntRef="CGPNT-38"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-38"/>
+					<End pntRef="CGPNT-39"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-39"/>
+					<End pntRef="CGPNT-40"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-40"/>
+					<End pntRef="CGPNT-41"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-41"/>
+					<End pntRef="CGPNT-42"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-42"/>
+					<End pntRef="CGPNT-29"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-29"/>
+					<End pntRef="CGPNT-22"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-22"/>
+					<End pntRef="CGPNT-20"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-20"/>
+					<End pntRef="CGPNT-18"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-18"/>
+					<End pntRef="CGPNT-16"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-16"/>
+					<End pntRef="CGPNT-55"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-55"/>
+					<End pntRef="CGPNT-7"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-7"/>
+					<End pntRef="CGPNT-56"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-56"/>
+					<End pntRef="CGPNT-57"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-57"/>
+					<End pntRef="CGPNT-65"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-65"/>
+					<End pntRef="CGPNT-64"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-64"/>
+					<End pntRef="CGPNT-63"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-63"/>
+					<End pntRef="CGPNT-62"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-62"/>
+					<End pntRef="CGPNT-61"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<!-- Reserve Parcels Creation -->
+		<Parcel name="RES1\PS619178" class="Reserve" state="created" parcelType="Single" area="4964.221" owner="MORNINGTON PENINSULA SHIRE COUNCIL">
+			<Center pntRef="CGPNT-211"/>
+			<CoordGeom name="CG-34">
+				<IrregularLine desc="GUNYONG CREEK">
+					<Start pntRef="CGPNT-97"/>
+					<End pntRef="CGPNT-98"/>
+					<PntList2D>5769958.250 331542.405 5769960.874 331535.172 5769964.695 331528.002 5769968.988 331521.133 5769974.612 331515.122 5769973.968 331512.074 5769972.251 331508.038 5769977.017 331501.083 5769982.340 331501.384 5769985.002 331503.960 5769995.606 331503.874 5770003.248 331502.543 5770004.579 331495.073 5770014.110 331497.134 5770020.807 331495.073 5770028.621 331492.411 5770038.495 331490.522 5770046.137 331488.977 5770051.118 331483.996 5770063.740 331486.830 5770067.518 331490.200 5770070.263 331494.040</PntList2D>
+				</IrregularLine>
+				<Line>
+					<Start pntRef="CGPNT-98"/>
+					<End pntRef="CGPNT-175"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-175"/>
+					<End pntRef="CGPNT-70"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-70"/>
+					<End pntRef="CGPNT-71"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-71"/>
+					<End pntRef="CGPNT-72"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-72"/>
+					<End pntRef="CGPNT-105"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-105"/>
+					<End pntRef="CGPNT-68"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-68"/>
+					<End pntRef="CGPNT-67"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-67"/>
+					<End pntRef="CGPNT-87"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-87"/>
+					<End pntRef="CGPNT-86"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-86"/>
+					<End pntRef="CGPNT-82"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-82"/>
+					<End pntRef="CGPNT-81"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-81"/>
+					<End pntRef="CGPNT-79"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-79"/>
+					<End pntRef="CGPNT-48"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-48"/>
+					<End pntRef="CGPNT-47"/>
+				</Line>
+				<IrregularLine desc="GUNYONG CREEK">
+					<Start pntRef="CGPNT-47"/>
+					<End pntRef="CGPNT-97"/>
+					<PntList2D>5769951.874 331601.419 5769946.878 331594.933 5769942.113 331587.034 5769944.002 331581.581 5769946.020 331576.429 5769949.368 331568.015 5769952.803 331560.287 5769955.550 331551.829 5769957.955 331544.960 5769958.250 331542.405</PntList2D>
+				</IrregularLine>
+			</CoordGeom>
+			<Title name="RST1\PS619178" titleType="Restriction Benefit"/>
+			<Title name="RST2\PS619178" titleType="Restriction Benefit"/>
+			<Title name="RST3\PS619178" titleType="Restriction Benefit"/>
+		</Parcel>		
+		<Parcel name="RES2\PS619178" class="Reserve" state="created" parcelType="Single" area="3.165" owner="MORNINGTON PENINSULA SHIRE COUNCIL">
+			<Center pntRef="CGPNT-188"/>
+			<CoordGeom name="CG-11">
+				<Line>
+					<Start pntRef="CGPNT-22"/>
+					<End pntRef="CGPNT-21"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-21"/>
+					<End pntRef="CGPNT-19"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-19"/>
+					<End pntRef="CGPNT-17"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-17"/>
+					<End pntRef="CGPNT-15"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-15"/>
+					<End pntRef="CGPNT-16"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-16"/>
+					<End pntRef="CGPNT-18"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-18"/>
+					<End pntRef="CGPNT-20"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-20"/>
+					<End pntRef="CGPNT-22"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<!-- Easements Creation (Single and Part Parcels)-->
+		<Parcel name="E1" class="Easement" state="existing" parcelType="Single" area="222.872" parcelFormat="Geometry">
+			<Center pntRef="CGPNT-209"/>
+			<CoordGeom name="CG-32">
+				<Line>
+					<Start pntRef="CGPNT-175"/>
+					<End pntRef="CGPNT-98"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-98"/>
+					<End pntRef="CGPNT-71"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-71"/>
+					<End pntRef="CGPNT-104"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-104"/>
+					<End pntRef="CGPNT-106"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-106"/>
+					<End pntRef="CGPNT-59"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-59"/>
+					<End pntRef="CGPNT-60"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-60"/>
+					<End pntRef="CGPNT-9"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-9"/>
+					<End pntRef="CGPNT-58"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-58"/>
+					<End pntRef="CGPNT-170"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-170"/>
+					<End pntRef="CGPNT-69"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-69"/>
+					<End pntRef="CGPNT-91"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-91"/>
+					<End pntRef="CGPNT-70"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-70"/>
+					<End pntRef="CGPNT-175"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="EAS1\LP48216" class="Easement" state="existing" parcelType="Single" parcelFormat="Standard" useOfParcel="Drainage" owner="LOTS ON LP48216">
+			<Parcels>
+				<Parcel pclRef="E1" name="LNK-22"></Parcel>
+			</Parcels>
+		</Parcel>
+		<Parcel name="E2" class="Easement" state="created" parcelType="Single" area="4964.221" parcelFormat="Geometry">
+			<Center pntRef="CGPNT-210"/>
+			<CoordGeom name="CG-33">
+				<IrregularLine desc="GUNYONG CREEK">
+					<Start pntRef="CGPNT-97"/>
+					<End pntRef="CGPNT-98"/>
+					<PntList2D>5769958.250 331542.405 5769960.874 331535.172 5769964.695 331528.002 5769968.988 331521.133 5769974.612 331515.122 5769973.968 331512.074 5769972.251 331508.038 5769977.017 331501.083 5769982.340 331501.384 5769985.002 331503.960 5769995.606 331503.874 5770003.248 331502.543 5770004.579 331495.073 5770014.110 331497.134 5770020.807 331495.073 5770028.621 331492.411 5770038.495 331490.522 5770046.137 331488.977 5770051.118 331483.996 5770063.740 331486.830 5770067.518 331490.200 5770070.263 331494.040</PntList2D>
+				</IrregularLine>
+				<Line>
+					<Start pntRef="CGPNT-98"/>
+					<End pntRef="CGPNT-175"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-175"/>
+					<End pntRef="CGPNT-70"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-70"/>
+					<End pntRef="CGPNT-71"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-71"/>
+					<End pntRef="CGPNT-72"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-72"/>
+					<End pntRef="CGPNT-105"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-105"/>
+					<End pntRef="CGPNT-68"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-68"/>
+					<End pntRef="CGPNT-67"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-67"/>
+					<End pntRef="CGPNT-87"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-87"/>
+					<End pntRef="CGPNT-86"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-86"/>
+					<End pntRef="CGPNT-82"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-82"/>
+					<End pntRef="CGPNT-81"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-81"/>
+					<End pntRef="CGPNT-79"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-79"/>
+					<End pntRef="CGPNT-48"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-48"/>
+					<End pntRef="CGPNT-47"/>
+				</Line>
+				<IrregularLine desc="GUNYONG CREEK">
+					<Start pntRef="CGPNT-47"/>
+					<End pntRef="CGPNT-97"/>
+					<PntList2D>5769951.874 331601.419 5769946.878 331594.933 5769942.113 331587.034 5769944.002 331581.581 5769946.020 331576.429 5769949.368 331568.015 5769952.803 331560.287 5769955.550 331551.829 5769957.955 331544.960 5769958.250 331542.405</PntList2D>
+				</IrregularLine>
+			</CoordGeom>
+		</Parcel>		
+		<Parcel name="EAS2\PS619178" class="Easement" state="created" parcelType="Single" parcelFormat="Standard" useOfParcel="Drainage and Floodway" owner="MELBOURNE WATER CORPORATION">
+			<Parcels>
+				<Parcel pclRef="E2" name="LNK-23"></Parcel>
+			</Parcels>
+		</Parcel>		
+		<Parcel name="E3-p1" class="Easement" state="created" parcelType="Part" area="9.749" parcelFormat="Geometry">
+			<Center pntRef="CGPNT-189"/>
+			<CoordGeom name="CG-12">
+				<Line>
+					<Start pntRef="CGPNT-71"/>
+					<End pntRef="CGPNT-72"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-72"/>
+					<End pntRef="CGPNT-105"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-105"/>
+					<End pntRef="CGPNT-104"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-104"/>
+					<End pntRef="CGPNT-71"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="E3-p2" class="Easement" state="created" parcelType="Part" area="262.728" parcelFormat="Geometry">
+			<Center pntRef="CGPNT-190"/>
+			<CoordGeom name="CG-13">
+				<Line>
+					<Start pntRef="CGPNT-87"/>
+					<End pntRef="CGPNT-166"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-166"/>
+					<End pntRef="CGPNT-88"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-88"/>
+					<End pntRef="CGPNT-89"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-89"/>
+					<End pntRef="CGPNT-90"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-90"/>
+					<End pntRef="CGPNT-152"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-152"/>
+					<End pntRef="CGPNT-76"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-76"/>
+					<End pntRef="CGPNT-75"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-75"/>
+					<End pntRef="CGPNT-74"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-74"/>
+					<End pntRef="CGPNT-77"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-77"/>
+					<End pntRef="CGPNT-78"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-78"/>
+					<End pntRef="CGPNT-84"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-84"/>
+					<End pntRef="CGPNT-85"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-85"/>
+					<End pntRef="CGPNT-82"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-82"/>
+					<End pntRef="CGPNT-86"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-86"/>
+					<End pntRef="CGPNT-87"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="E3-p3" class="Easement" state="created" parcelType="Part" area="155.010" parcelFormat="Geometry">
+			<Center pntRef="CGPNT-191"/>
+			<CoordGeom name="CG-14">
+				<Line>
+					<Start pntRef="CGPNT-91"/>
+					<End pntRef="CGPNT-104"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-104"/>
+					<End pntRef="CGPNT-92"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-92"/>
+					<End pntRef="CGPNT-68"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-68"/>
+					<End pntRef="CGPNT-67"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-67"/>
+					<End pntRef="CGPNT-66"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-66"/>
+					<End pntRef="CGPNT-73"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-73"/>
+					<End pntRef="CGPNT-106"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-106"/>
+					<End pntRef="CGPNT-69"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-69"/>
+					<End pntRef="CGPNT-91"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="E3-p4" class="Easement" state="created" parcelType="Part" area="23.008" parcelFormat="Geometry">
+			<Center pntRef="CGPNT-214"/>
+			<CoordGeom name="CG-37">
+				<Line>
+					<Start pntRef="CGPNT-39"/>
+					<End pntRef="CGPNT-42"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-42"/>
+					<End pntRef="CGPNT-41"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-41"/>
+					<End pntRef="CGPNT-40"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-40"/>
+					<End pntRef="CGPNT-39"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="E4-p1" class="Easement" state="created" parcelType="Part" area="85.175" parcelFormat="Geometry">
+			<Center pntRef="CGPNT-192"/>
+			<CoordGeom name="CG-15">
+				<Line>
+					<Start pntRef="CGPNT-30"/>
+					<End pntRef="CGPNT-31"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-31"/>
+					<End pntRef="CGPNT-53"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-53"/>
+					<End pntRef="CGPNT-51"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-51"/>
+					<End pntRef="CGPNT-52"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-52"/>
+					<End pntRef="CGPNT-54"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-54"/>
+					<End pntRef="CGPNT-30"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="E4-p2" class="Easement" state="created" parcelType="Part" area="48.974" parcelFormat="Geometry">
+			<Center pntRef="CGPNT-193"/>
+			<CoordGeom name="CG-16">
+				<Line>
+					<Start pntRef="CGPNT-37"/>
+					<End pntRef="CGPNT-38"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-38"/>
+					<End pntRef="CGPNT-43"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-43"/>
+					<End pntRef="CGPNT-44"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-44"/>
+					<End pntRef="CGPNT-45"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-45"/>
+					<End pntRef="CGPNT-46"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-46"/>
+					<End pntRef="CGPNT-37"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="E4-p3" class="Easement" state="created" parcelType="Part" area="19.850" parcelFormat="Geometry">
+			<Center pntRef="CGPNT-194"/>
+			<CoordGeom name="CG-17">
+				<Line>
+					<Start pntRef="CGPNT-25"/>
+					<End pntRef="CGPNT-14"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-14"/>
+					<End pntRef="CGPNT-13"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-13"/>
+					<End pntRef="CGPNT-24"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-24"/>
+					<End pntRef="CGPNT-25"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="E4-p4" class="Easement" state="created" parcelType="Part" area="155.010" parcelFormat="Geometry">
+			<Center pntRef="CGPNT-195"/>
+			<CoordGeom name="CG-18">
+				<Line>
+					<Start pntRef="CGPNT-91"/>
+					<End pntRef="CGPNT-104"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-104"/>
+					<End pntRef="CGPNT-92"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-92"/>
+					<End pntRef="CGPNT-68"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-68"/>
+					<End pntRef="CGPNT-67"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-67"/>
+					<End pntRef="CGPNT-66"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-66"/>
+					<End pntRef="CGPNT-73"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-73"/>
+					<End pntRef="CGPNT-106"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-106"/>
+					<End pntRef="CGPNT-69"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-69"/>
+					<End pntRef="CGPNT-91"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<!-- Restriction Creation (Part Parcels)-->
+		<Parcel name="RST1-p1\PS619178" class="Restriction" state="created" parcelType="Part" area="353.557">
+			<Center pntRef="CGPNT-196"/>
+			<CoordGeom name="CG-19">
+				<Line>
+					<Start pntRef="CGPNT-109"/>
+					<End pntRef="CGPNT-110"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-110"/>
+					<End pntRef="CGPNT-111"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-111"/>
+					<End pntRef="CGPNT-112"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-112"/>
+					<End pntRef="CGPNT-107"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-107"/>
+					<End pntRef="CGPNT-108"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-108"/>
+					<End pntRef="CGPNT-109"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="RST1-p2\PS619178" class="Restriction" state="created" parcelType="Part" area="341.395">
+			<Center pntRef="CGPNT-197"/>
+			<CoordGeom name="CG-20">
+				<Line>
+					<Start pntRef="CGPNT-113"/>
+					<End pntRef="CGPNT-117"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-117"/>
+					<End pntRef="CGPNT-116"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-116"/>
+					<End pntRef="CGPNT-115"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-115"/>
+					<End pntRef="CGPNT-114"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-114"/>
+					<End pntRef="CGPNT-113"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="RST1-p3\PS619178" class="Restriction" state="created" parcelType="Part" area="296.500">
+			<Center pntRef="CGPNT-198"/>
+			<CoordGeom name="CG-21">
+				<Line>
+					<Start pntRef="CGPNT-120"/>
+					<End pntRef="CGPNT-119"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-119"/>
+					<End pntRef="CGPNT-118"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-118"/>
+					<End pntRef="CGPNT-125"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-125"/>
+					<End pntRef="CGPNT-124"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-124"/>
+					<End pntRef="CGPNT-123"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-123"/>
+					<End pntRef="CGPNT-122"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-122"/>
+					<End pntRef="CGPNT-121"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-121"/>
+					<End pntRef="CGPNT-120"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="RST1-p4\PS619178" class="Restriction" state="created" parcelType="Part" area="248.882">
+			<Center pntRef="CGPNT-199"/>
+			<CoordGeom name="CG-22">
+				<Line>
+					<Start pntRef="CGPNT-131"/>
+					<End pntRef="CGPNT-130"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-130"/>
+					<End pntRef="CGPNT-129"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-129"/>
+					<End pntRef="CGPNT-128"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-128"/>
+					<End pntRef="CGPNT-127"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-127"/>
+					<End pntRef="CGPNT-126"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-126"/>
+					<End pntRef="CGPNT-131"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="RST1-p5\PS619178" class="Restriction" state="created" parcelType="Part" area="197.902">
+			<Center pntRef="CGPNT-202"/>
+			<CoordGeom name="CG-25">
+				<Line>
+					<Start pntRef="CGPNT-137"/>
+					<End pntRef="CGPNT-146"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-146"/>
+					<End pntRef="CGPNT-145"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-145"/>
+					<End pntRef="CGPNT-144"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-144"/>
+					<End pntRef="CGPNT-143"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-143"/>
+					<End pntRef="CGPNT-142"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-142"/>
+					<End pntRef="CGPNT-141"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-141"/>
+					<End pntRef="CGPNT-140"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-140"/>
+					<End pntRef="CGPNT-139"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-139"/>
+					<End pntRef="CGPNT-135"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-135"/>
+					<End pntRef="CGPNT-136"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-136"/>
+					<End pntRef="CGPNT-137"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="RST1-p6\PS619178" class="Restriction" state="created" parcelType="Part" area="306.400">
+			<Center pntRef="CGPNT-204"/>
+			<CoordGeom name="CG-27">
+				<Line>
+					<Start pntRef="CGPNT-148"/>
+					<End pntRef="CGPNT-149"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-149"/>
+					<End pntRef="CGPNT-153"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-153"/>
+					<End pntRef="CGPNT-151"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-151"/>
+					<End pntRef="CGPNT-147"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-147"/>
+					<End pntRef="CGPNT-148"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="RST1-p7\PS619178" class="Restriction" state="created" parcelType="Part" area="287.185">
+			<Center pntRef="CGPNT-206"/>
+			<CoordGeom name="CG-29">
+				<Line>
+					<Start pntRef="CGPNT-159"/>
+					<End pntRef="CGPNT-165"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-165"/>
+					<End pntRef="CGPNT-158"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-158"/>
+					<End pntRef="CGPNT-160"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-160"/>
+					<End pntRef="CGPNT-161"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-161"/>
+					<End pntRef="CGPNT-162"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-162"/>
+					<End pntRef="CGPNT-163"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-163"/>
+					<End pntRef="CGPNT-164"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-164"/>
+					<End pntRef="CGPNT-159"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="RST1-p8\PS619178" class="Restriction" state="created" parcelType="Part" area="562.633">
+			<Center pntRef="CGPNT-207"/>
+			<CoordGeom name="CG-30">
+				<Line>
+					<Start pntRef="CGPNT-167"/>
+					<End pntRef="CGPNT-169"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-169"/>
+					<End pntRef="CGPNT-173"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-173"/>
+					<End pntRef="CGPNT-174"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-174"/>
+					<End pntRef="CGPNT-172"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-172"/>
+					<End pntRef="CGPNT-171"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-171"/>
+					<End pntRef="CGPNT-167"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="RST2-p1\PS619178" class="Restriction" state="created" parcelType="Part" area="161.226">
+			<Center pntRef="CGPNT-200"/>
+			<CoordGeom name="CG-23">
+				<Line>
+					<Start pntRef="CGPNT-47"/>
+					<End pntRef="CGPNT-48"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-48"/>
+					<End pntRef="CGPNT-77"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-77"/>
+					<End pntRef="CGPNT-74"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-74"/>
+					<End pntRef="CGPNT-133"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-133"/>
+					<End pntRef="CGPNT-132"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-132"/>
+					<End pntRef="CGPNT-134"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-134"/>
+					<End pntRef="CGPNT-47"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="RST2-p2\PS619178" class="Restriction" state="created" parcelType="Part" area="182.920">
+			<Center pntRef="CGPNT-201"/>
+			<CoordGeom name="CG-24">
+				<Line>
+					<Start pntRef="CGPNT-48"/>
+					<End pntRef="CGPNT-79"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-79"/>
+					<End pntRef="CGPNT-138"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-138"/>
+					<End pntRef="CGPNT-146"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-146"/>
+					<End pntRef="CGPNT-137"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-137"/>
+					<End pntRef="CGPNT-136"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-136"/>
+					<End pntRef="CGPNT-135"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-135"/>
+					<End pntRef="CGPNT-133"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-133"/>
+					<End pntRef="CGPNT-74"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-74"/>
+					<End pntRef="CGPNT-77"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-77"/>
+					<End pntRef="CGPNT-48"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="RST2-p3\PS619178" class="Restriction" state="created" parcelType="Part" area="418.150">
+			<Center pntRef="CGPNT-203"/>
+			<CoordGeom name="CG-26">
+				<Line>
+					<Start pntRef="CGPNT-81"/>
+					<End pntRef="CGPNT-82"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-82"/>
+					<End pntRef="CGPNT-85"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-85"/>
+					<End pntRef="CGPNT-157"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-157"/>
+					<End pntRef="CGPNT-156"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-156"/>
+					<End pntRef="CGPNT-155"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-155"/>
+					<End pntRef="CGPNT-154"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-154"/>
+					<End pntRef="CGPNT-149"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-149"/>
+					<End pntRef="CGPNT-153"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-153"/>
+					<End pntRef="CGPNT-150"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-150"/>
+					<End pntRef="CGPNT-138"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-138"/>
+					<End pntRef="CGPNT-79"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-79"/>
+					<End pntRef="CGPNT-81"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="RST2-p4\PS619178" class="Restriction" state="created" parcelType="Part" area="283.904">
+			<Center pntRef="CGPNT-205"/>
+			<CoordGeom name="CG-28">
+				<Line>
+					<Start pntRef="CGPNT-82"/>
+					<End pntRef="CGPNT-85"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-85"/>
+					<End pntRef="CGPNT-157"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-157"/>
+					<End pntRef="CGPNT-159"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-159"/>
+					<End pntRef="CGPNT-164"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-164"/>
+					<End pntRef="CGPNT-163"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-163"/>
+					<End pntRef="CGPNT-162"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-162"/>
+					<End pntRef="CGPNT-161"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-161"/>
+					<End pntRef="CGPNT-166"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-166"/>
+					<End pntRef="CGPNT-87"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-87"/>
+					<End pntRef="CGPNT-86"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-86"/>
+					<End pntRef="CGPNT-82"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="RST2-p5\PS619178" class="Restriction" state="created" parcelType="Part" area="574.101">
+			<Center pntRef="CGPNT-208"/>
+			<CoordGeom name="CG-31">
+				<Line>
+					<Start pntRef="CGPNT-67"/>
+					<End pntRef="CGPNT-68"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-68"/>
+					<End pntRef="CGPNT-105"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-105"/>
+					<End pntRef="CGPNT-72"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-72"/>
+					<End pntRef="CGPNT-71"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-71"/>
+					<End pntRef="CGPNT-70"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-70"/>
+					<End pntRef="CGPNT-91"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-91"/>
+					<End pntRef="CGPNT-69"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-69"/>
+					<End pntRef="CGPNT-170"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-170"/>
+					<End pntRef="CGPNT-173"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-173"/>
+					<End pntRef="CGPNT-169"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-169"/>
+					<End pntRef="CGPNT-167"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-167"/>
+					<End pntRef="CGPNT-168"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-168"/>
+					<End pntRef="CGPNT-66"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-66"/>
+					<End pntRef="CGPNT-67"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<!-- Multipart Parcels Creation -->
+		<Parcel name="E3" class="Easement" state="created" parcelType="Multipart" desc="EASEMENT3" area="450" parcelFormat="Geometry">
+			<Parcels>
+				<Parcel name="LNK-1" pclRef="E3-p1"/>
+				<Parcel name="LNK-2" pclRef="E3-p2"/>
+				<Parcel name="LNK-3" pclRef="E3-p3"/>
+				<Parcel name="LNK-4" pclRef="E3-p4"/>
+			</Parcels>
+		</Parcel>
+		<Parcel name="EAS3\PS619178" class="Easement" state="created" parcelType="Multipart" desc="EASEMENT3" useOfParcel="Drainage" owner="MORNINGTON PENINSULA SHIRE COUNCIL" parcelFormat="Standard">
+			<Parcels>
+				<Parcel pclRef="E3" name="LNK-24"></Parcel>
+			</Parcels>
+		</Parcel>
+		<Parcel name="E4" class="Easement" state="created" parcelType="Multipart" desc="EASEMENT4" area="309" parcelFormat="Geometry">
+			<Parcels>
+				<Parcel name="LNK-5" pclRef="E4-p1"/>
+				<Parcel name="LNK-6" pclRef="E4-p2"/>
+				<Parcel name="LNK-7" pclRef="E4-p3"/>
+				<Parcel name="LNK-8" pclRef="E4-p4"/>
+			</Parcels>
+		</Parcel>
+		<Parcel name="EAS4\PS619178" class="Easement" state="created" parcelType="Multipart" desc="EASEMENT4" useOfParcel="Sewerage" owner="SOUTH EAST WATER LIMITED" parcelFormat="Standard">
+			<Parcels>
+				<Parcel pclRef="E4" name="LNK-25"></Parcel>
+			</Parcels>
+		</Parcel>
+		<Parcel name="RST1\PS619178" class="Restriction" state="created" parcelType="Multipart" desc="THE REGISTERED PROPRIETOR OR PROPRIETORS FOR THE TIME BEING OF A BURDENED LOT TO WHICH THIS RESTRCTION APPLIES SHALL NOT: A1. HAVE BUILT, CONSTRUCTED, OR ERECTED ANU BUILDING OUTSIDE THE AREA SHOWN HATCHED (SEE SHEETS 7 &amp; 8) HEREON EXCEPT FOR EAVES OR CHIMNEYS NOT EXCEEDING 450 MM IN WIDTH. A2. CONSTRUCT A BUILDING ON THE LOTS SHOWN HEREON UNLESS THE SETBACKS FROM THE BOUNDARIES ARE IN ACCORDANCE WITH REGULATIONS 4.9, 4.14 AND 4.15 IN PART 4 OF THE BUILDING REGULATIONS 1994. A3. VARY THE ABOVE RESTRCITIONS WITHOUT THE WRITTEN CONSENT OF THE RESPONSIBLE AUTHORITY." area="2594">
+			<Parcels>
+				<Parcel name="LNK-9" pclRef="RST1-p1\PS619178"/>
+				<Parcel name="LNK-10" pclRef="RST1-p2\PS619178"/>
+				<Parcel name="LNK-11" pclRef="RST1-p3\PS619178"/>
+				<Parcel name="LNK-12" pclRef="RST1-p4\PS619178"/>
+				<Parcel name="LNK-13" pclRef="RST1-p5\PS619178"/>
+				<Parcel name="LNK-14" pclRef="RST1-p6\PS619178"/>
+				<Parcel name="LNK-15" pclRef="RST1-p7\PS619178"/>
+				<Parcel name="LNK-16" pclRef="RST1-p8\PS619178"/>
+			</Parcels>
+		</Parcel>
+		<Parcel name="RST2\PS619178" class="Restriction" state="created" parcelType="Multipart" desc="THE REGISTERED PROPRIETOR OR PROPRIETORS FOR THE TIME BEING OF A BURDENED LOT TO WHICH THIS RESTRCITION APPLIES SHALL NOT: C1. CONSTRUCT OR ALLOW TO CONSTRUCT ANY SWIMMING POOLS OR UNDERTAKE ANY FILLING OR EXCAVATION INSIDE THE MODERATE RISK LEVEL OF AREA SHOWN CROSS-HATCHED (SEE SHEETS 7 &amp; 8) HEREON WITHOUT THE CONSENT OF THE RESPONSIBLE AUTHORITY. C2. CONSTRUCT OR ALLOW TO CONSTRUCT ANY DWELLING OR BUILDING WITHOUT A MEDIUM LANDSIDE SUSCEPTIBILITY INVESTIGATION BEING UNDERTAKEN AND BEING CONSTRUCTED AS PART OF THE BUILDING PERMIT FOR THE SITE SPECIFIC CONDITIONS, INCLUDING ANY EXTERNAL STRUCTURES." area="1620">
+			<Parcels>
+				<Parcel name="LNK-17" pclRef="RST2-p1\PS619178"/>
+				<Parcel name="LNK-18" pclRef="RST2-p2\PS619178"/>
+				<Parcel name="LNK-19" pclRef="RST2-p3\PS619178"/>
+				<Parcel name="LNK-20" pclRef="RST2-p4\PS619178"/>
+				<Parcel name="LNK-21" pclRef="RST2-p5\PS619178"/>
+			</Parcels>
+		</Parcel>
+		<!-- Non-Spatial Restriction Creation -->
+		<Parcel name="RST3\PS619178" class="Restriction" state="created" parcelType="Single" desc="SHALL NOT ALLOW STORMWATER DISCHARGE TO EXCEED THE PRE-DEVELOPED CONDITIONS"/>
+		<!-- Road Abuttal -->
+		<Parcel name="ROAD-1" desc="BELUGA STREET" class="Road" state="existing" parcelType="Single">
+			<Center pntRef="CGPNT-215"/>
+			<CoordGeom name="CG-38">
+				<Line>
+					<Start pntRef="CGPNT-8"/>
+					<End pntRef="CGPNT-15"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-15"/>
+					<End pntRef="CGPNT-16"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-16"/>
+					<End pntRef="CGPNT-55"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-55"/>
+					<End pntRef="CGPNT-7"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-7"/>
+					<End pntRef="CGPNT-56"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-56"/>
+					<End pntRef="CGPNT-57"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-57"/>
+					<End pntRef="CGPNT-60"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-60"/>
+					<End pntRef="CGPNT-9"/>
+				</Line>
+				<Line>
+					<Start pntRef="CGPNT-9"/>
+					<End pntRef="CGPNT-103"/>
+				</Line>
+			</CoordGeom>
+		</Parcel>
+	</Parcels>
+	<Survey>
+		<SurveyHeader name="PS619178G" jurisdiction="Victoria" type="compiled" surveyorFirm="WATSONS Pty.Ltd." surveyorReference="35742-Ver6" surveyFormat="Level Land">
+			<HeadOfPower name="Subdivision Act 1988"/>
+			<PurposeOfSurvey name="Section 22-Plan of Subdivision"/>
+			<AdministrativeArea adminAreaName="MORNINGTON PENINSULA SHIRE" adminAreaType="LGA" adminAreaCode="352"/>
+			<AdministrativeArea adminAreaName="MOOROODUC" adminAreaType="Parish" adminAreaCode="3175"/>
+			<AdministrativeDate adminDateType="Date of Survey" adminDate="2008-06-26"/>
+			<Personnel name="MICHAEL DEGG" regType="Licensed Cadastral Surveyor" role="Surveyed By" regNumber="1821"/>
+			<!-- Annotations -->
+			<Annotation name="ANNO-1" type="Crown Allotment" desc="3\PP3175"/>
+			<Annotation name="ANNO-2" type="Report on Datum" desc="DATUM 'A-B-C' VIDE AP125483C, ADD 4 DEGREES 4MINUTES AND 13 SECONDS TO MGA94 FOR LP48216 AND LP79246"/>
+			<Annotation name="ANNO-3" type="Parcel with Area by Deduction" desc="RESERVE No.1 AREA IS 4296 Sq. M." pclRef="RES1\PS619178"/>
+			<Annotation name="ANNO-4" type="General Plan Notation" desc="OTHER PURPOSE OF PLAN IS TO REMOVE DRAINAGE EASEMENT E-1 AS CREATED BY LP79246"/>
+			
+		</SurveyHeader>
+		<InstrumentSetup id="IS-1" stationName="IS-1" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-1"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-2" stationName="IS-2" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-2"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-3" stationName="IS-3" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-3"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-4" stationName="IS-4" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-4"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-5" stationName="IS-5" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-5"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-6" stationName="IS-6" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-6"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-7" stationName="IS-7" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-7"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-8" stationName="IS-8" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-8"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-9" stationName="IS-9" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-9"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-10" stationName="IS-10" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-10"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-11" stationName="IS-11" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-11"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-12" stationName="IS-12" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-12"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-13" stationName="IS-13" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-13"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-14" stationName="IS-14" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-14"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-15" stationName="IS-15" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-15"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-16" stationName="IS-16" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-16"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-17" stationName="IS-17" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-17"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-18" stationName="IS-18" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-18"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-19" stationName="IS-19" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-19"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-20" stationName="IS-20" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-20"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-21" stationName="IS-21" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-21"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-22" stationName="IS-22" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-22"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-23" stationName="IS-23" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-23"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-24" stationName="IS-24" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-24"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-25" stationName="IS-25" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-25"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-26" stationName="IS-26" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-26"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-27" stationName="IS-27" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-27"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-28" stationName="IS-28" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-28"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-29" stationName="IS-29" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-29"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-30" stationName="IS-30" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-30"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-31" stationName="IS-31" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-31"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-32" stationName="IS-32" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-32"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-33" stationName="IS-33" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-33"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-34" stationName="IS-34" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-34"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-35" stationName="IS-35" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-35"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-36" stationName="IS-36" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-36"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-37" stationName="IS-37" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-37"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-38" stationName="IS-38" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-38"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-39" stationName="IS-39" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-39"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-40" stationName="IS-40" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-40"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-41" stationName="IS-41" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-41"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-42" stationName="IS-42" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-42"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-43" stationName="IS-43" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-43"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-44" stationName="IS-44" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-44"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-45" stationName="IS-45" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-45"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-46" stationName="IS-46" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-46"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-134" stationName="IS-134" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-134"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-47" stationName="IS-47" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-47"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-48" stationName="IS-48" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-48"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-49" stationName="IS-49" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-49"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-50" stationName="IS-50" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-50"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-51" stationName="IS-51" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-51"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-52" stationName="IS-52" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-52"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-53" stationName="IS-53" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-53"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-54" stationName="IS-54" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-54"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-55" stationName="IS-55" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-55"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-56" stationName="IS-56" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-56"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-57" stationName="IS-57" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-57"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-60" stationName="IS-60" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-60"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-58" stationName="IS-58" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-58"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-59" stationName="IS-59" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-59"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-61" stationName="IS-61" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-61"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-62" stationName="IS-62" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-62"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-63" stationName="IS-63" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-63"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-64" stationName="IS-64" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-64"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-65" stationName="IS-65" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-65"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-168" stationName="IS-168" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-168"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-66" stationName="IS-66" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-66"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-67" stationName="IS-67" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-67"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-68" stationName="IS-68" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-68"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-170" stationName="IS-170" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-170"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-70" stationName="IS-70" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-70"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-71" stationName="IS-71" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-71"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-72" stationName="IS-72" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-72"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-105" stationName="IS-105" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-105"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-106" stationName="IS-106" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-106"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-69" stationName="IS-69" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-69"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-92" stationName="IS-92" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-92"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-73" stationName="IS-73" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-73"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-133" stationName="IS-133" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-133"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-74" stationName="IS-74" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-74"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-75" stationName="IS-75" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-75"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-76" stationName="IS-76" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-76"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-77" stationName="IS-77" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-77"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-79" stationName="IS-79" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-79"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-78" stationName="IS-78" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-78"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-80" stationName="IS-80" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-80"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-138" stationName="IS-138" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-138"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-81" stationName="IS-81" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-81"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-82" stationName="IS-82" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-82"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-85" stationName="IS-85" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-85"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-83" stationName="IS-83" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-83"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-152" stationName="IS-152" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-152"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-84" stationName="IS-84" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-84"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-157" stationName="IS-157" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-157"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-86" stationName="IS-86" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-86"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-87" stationName="IS-87" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-87"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-166" stationName="IS-166" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-166"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-88" stationName="IS-88" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-88"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-89" stationName="IS-89" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-89"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-90" stationName="IS-90" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-90"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-91" stationName="IS-91" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-91"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-104" stationName="IS-104" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-104"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-93" stationName="IS-93" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-93"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-94" stationName="IS-94" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-94"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-95" stationName="IS-95" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-95"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-96" stationName="IS-96" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-96"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-97" stationName="IS-97" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-97"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-98" stationName="IS-98" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-98"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-99" stationName="IS-99" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-99"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-100" stationName="IS-100" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-100"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-101" stationName="IS-101" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-101"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-102" stationName="IS-102" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-102"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-103" stationName="IS-103" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-103"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-107" stationName="IS-107" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-107"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-108" stationName="IS-108" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-108"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-109" stationName="IS-109" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-109"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-110" stationName="IS-110" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-110"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-111" stationName="IS-111" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-111"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-112" stationName="IS-112" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-112"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-113" stationName="IS-113" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-113"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-114" stationName="IS-114" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-114"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-115" stationName="IS-115" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-115"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-116" stationName="IS-116" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-116"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-117" stationName="IS-117" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-117"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-118" stationName="IS-118" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-118"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-119" stationName="IS-119" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-119"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-120" stationName="IS-120" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-120"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-121" stationName="IS-121" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-121"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-122" stationName="IS-122" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-122"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-123" stationName="IS-123" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-123"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-124" stationName="IS-124" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-124"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-125" stationName="IS-125" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-125"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-126" stationName="IS-126" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-126"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-127" stationName="IS-127" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-127"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-128" stationName="IS-128" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-128"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-129" stationName="IS-129" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-129"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-130" stationName="IS-130" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-130"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-131" stationName="IS-131" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-131"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-132" stationName="IS-132" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-132"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-135" stationName="IS-135" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-135"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-136" stationName="IS-136" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-136"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-137" stationName="IS-137" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-137"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-146" stationName="IS-146" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-146"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-139" stationName="IS-139" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-139"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-140" stationName="IS-140" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-140"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-141" stationName="IS-141" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-141"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-142" stationName="IS-142" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-142"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-143" stationName="IS-143" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-143"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-144" stationName="IS-144" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-144"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-145" stationName="IS-145" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-145"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-150" stationName="IS-150" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-150"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-147" stationName="IS-147" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-147"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-148" stationName="IS-148" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-148"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-149" stationName="IS-149" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-149"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-151" stationName="IS-151" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-151"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-153" stationName="IS-153" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-153"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-154" stationName="IS-154" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-154"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-155" stationName="IS-155" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-155"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-156" stationName="IS-156" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-156"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-158" stationName="IS-158" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-158"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-165" stationName="IS-165" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-165"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-159" stationName="IS-159" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-159"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-160" stationName="IS-160" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-160"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-161" stationName="IS-161" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-161"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-162" stationName="IS-162" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-162"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-163" stationName="IS-163" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-163"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-164" stationName="IS-164" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-164"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-167" stationName="IS-167" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-167"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-169" stationName="IS-169" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-169"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-173" stationName="IS-173" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-173"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-171" stationName="IS-171" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-171"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-172" stationName="IS-172" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-172"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-174" stationName="IS-174" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-174"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-175" stationName="IS-175" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-175"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-176" stationName="IS-176" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-176"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-177" stationName="IS-177" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-177"/>
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-178" stationName="IS-178" instrumentHeight="0">
+			<InstrumentPoint pntRef="CGPNT-216"/>
+		</InstrumentSetup>		
+		
+		
+		<ObservationGroup id="OBSG-1">
+			<!-- Traverses -->
+			<ReducedObservation name="OBS-1" purpose="traverse" setupID="IS-1" targetSetupID="IS-2" azimuth="25.03" horizDistance="4.260"/>
+			<ReducedObservation name="OBS-2" purpose="traverse" setupID="IS-2" targetSetupID="IS-3" azimuth="309.5150" horizDistance="31.860"/>
+			<ReducedObservation name="OBS-3" purpose="traverse" setupID="IS-3" targetSetupID="IS-4" azimuth="309.5150" horizDistance="21.510"/>
+			<ReducedObservation name="OBS-4" purpose="traverse" setupID="IS-4" targetSetupID="IS-5" azimuth="309.5051" horizDistance="19.220"/>
+			<ReducedObservation name="OBS-5" purpose="traverse" setupID="IS-5" targetSetupID="IS-6" azimuth="309.5150" horizDistance="7.350"/>
+			<ReducedObservation name="OBS-9" purpose="traverse" setupID="IS-5" targetSetupID="IS-10" azimuth="260.4120" horizDistance="46.930"/>
+			<ReducedObservation name="OBS-10" purpose="traverse" setupID="IS-10" targetSetupID="IS-11" azimuth="259.3030" horizDistance="40.420"/>
+			<ReducedObservation name="OBS-11" purpose="traverse" setupID="IS-11" targetSetupID="IS-12" azimuth="291.2740" horizDistance="30.660"/>
+			<ReducedObservation name="OBS-122" purpose="traverse" setupID="IS-99" targetSetupID="IS-100" azimuth="228.17" horizDistance="25.030"/>
+			<ReducedObservation name="OBS-123" purpose="traverse" setupID="IS-100" targetSetupID="IS-101" azimuth="182.21" horizDistance="93.660"/>
+			<ReducedObservation name="OBS-124" purpose="traverse" setupID="IS-101" targetSetupID="IS-102" azimuth="276.3040" horizDistance="75.260"/>
+			<ReducedObservation name="OBS-125" purpose="traverse" setupID="IS-102" targetSetupID="IS-2" azimuth="276.4113" horizDistance="8.682"/>
+			<ReducedObservation name="OBS-217" purpose="traverse" setupID="IS-176" targetSetupID="IS-101" azimuth="357.0735" horizDistance="98.593"/>
+			<ReducedObservation name="OBS-219" purpose="traverse" setupID="IS-178" targetSetupID="IS-101" azimuth="357.0735" horizDistance="98.593"/>
+			<!-- Radiation -->
+			<ReducedObservation name="OBS-6" purpose="sideshot" setupID="IS-4" targetSetupID="IS-7" azimuth="248.21" horizDistance="5.320"/>
+			<ReducedObservation name="OBS-7" purpose="sideshot" setupID="IS-3" targetSetupID="IS-8" azimuth="190.3436" horizDistance="5.361"/>
+			<ReducedObservation name="OBS-8" purpose="sideshot" setupID="IS-6" targetSetupID="IS-9" azimuth="249.0214" horizDistance="5.349"/>
+			<ReducedObservation name="OBS-211" purpose="sideshot" setupID="IS-12" targetSetupID="IS-175" azimuth="274.5020" horizDistance="16.080"/>
+			<ReducedObservation name="OBS-218" purpose="sideshot" setupID="IS-177" targetSetupID="IS-101" azimuth="3.0118" horizDistance="8.677"/>
+			<!-- Boundary Observations -->
+			<ReducedObservation name="OBS-12" purpose="normal" setupID="IS-8" targetSetupID="IS-13" azimuth="210.5850" horizDistance="31.140"/>
+			<ReducedObservation name="OBS-13" purpose="normal" setupID="IS-13" targetSetupID="IS-14" azimuth="210.5850" horizDistance="7.940"/>
+			<ReducedObservation name="OBS-14" purpose="normal" setupID="IS-8" targetSetupID="IS-15" azimuth="309.5150" horizDistance="18.270"/>
+			<ReducedObservation name="OBS-15" purpose="normal" setupID="IS-15" targetSetupID="IS-16" azimuth="309.5150" horizDistance="0.130"/>
+			<ReducedObservation name="OBS-16" purpose="normal" setupID="IS-15" targetSetupID="IS-17" azimuth="260.25" horizDistance="3.940"/>
+			<ReducedObservation name="OBS-17" purpose="normal" setupID="IS-16" targetSetupID="IS-18" azimuth="260.25" horizDistance="3.900"/>
+			<ReducedObservation name="OBS-18" purpose="normal" setupID="IS-17" targetSetupID="IS-19" azimuth="210.5850" horizDistance="18.900"/>
+			<ReducedObservation name="OBS-19" purpose="normal" setupID="IS-18" targetSetupID="IS-20" azimuth="210.5850" horizDistance="18.910"/>
+			<ReducedObservation name="OBS-20" purpose="normal" setupID="IS-19" targetSetupID="IS-21" azimuth="248.30" horizDistance="9.280"/>
+			<ReducedObservation name="OBS-21" purpose="normal" setupID="IS-20" targetSetupID="IS-22" azimuth="248.30" horizDistance="9.240"/>
+			<ReducedObservation name="OBS-22" purpose="normal" setupID="IS-22" targetSetupID="IS-21" azimuth="163.3557" horizDistance="0.100"/>
+			<ReducedObservation name="OBS-23" purpose="normal" setupID="IS-21" targetSetupID="IS-23" azimuth="158.30" horizDistance="8.540"/>
+			<ReducedObservation name="OBS-24" purpose="normal" setupID="IS-23" targetSetupID="IS-24" azimuth="120.4631" horizDistance="17.422"/>
+			<ReducedObservation name="OBS-25" purpose="normal" setupID="IS-24" targetSetupID="IS-13" azimuth="120.5850" horizDistance="2.500"/>
+			<ReducedObservation name="OBS-26" purpose="normal" setupID="IS-24" targetSetupID="IS-25" azimuth="210.5850" horizDistance="7.940"/>
+			<ReducedObservation name="OBS-27" purpose="normal" setupID="IS-25" targetSetupID="IS-14" azimuth="120.5850" horizDistance="2.500"/>
+			<ReducedObservation name="OBS-28" purpose="normal" setupID="IS-14" targetSetupID="IS-26" azimuth="210.5850" horizDistance="11.060"/>
+			<ReducedObservation name="OBS-29" purpose="normal" setupID="IS-26" targetSetupID="IS-27" azimuth="300.5850" horizDistance="30.000"/>
+			<ReducedObservation name="OBS-30" purpose="normal" setupID="IS-27" targetSetupID="IS-28" azimuth="30.5850" horizDistance="16.590"/>
+			<ReducedObservation name="OBS-31" purpose="normal" setupID="IS-28" targetSetupID="IS-29" azimuth="338.30" horizDistance="2.070"/>
+			<ReducedObservation name="OBS-32" purpose="normal" setupID="IS-29" targetSetupID="IS-22" azimuth="68.2717" horizDistance="8.009"/>
+			<ReducedObservation name="OBS-33" purpose="normal" setupID="IS-26" targetSetupID="IS-30" azimuth="210.5850" horizDistance="12.940"/>
+			<ReducedObservation name="OBS-34" purpose="normal" setupID="IS-30" targetSetupID="IS-31" azimuth="210.5850" horizDistance="2.500"/>
+			<ReducedObservation name="OBS-35" purpose="normal" setupID="IS-31" targetSetupID="IS-32" azimuth="210.5850" horizDistance="4.560"/>
+			<ReducedObservation name="OBS-36" purpose="normal" setupID="IS-32" targetSetupID="IS-33" azimuth="300.5850" horizDistance="34.070"/>
+			<ReducedObservation name="OBS-37" purpose="normal" setupID="IS-33" targetSetupID="IS-34" azimuth="30.5850" horizDistance="5.000"/>
+			<ReducedObservation name="OBS-38" purpose="normal" setupID="IS-34" targetSetupID="IS-35" azimuth="300.5850" horizDistance="5.700"/>
+			<ReducedObservation name="OBS-39" purpose="normal" setupID="IS-35" targetSetupID="IS-36" azimuth="318.24" horizDistance="7.580"/>
+			<ReducedObservation name="OBS-40" purpose="normal" setupID="IS-36" targetSetupID="IS-37" azimuth="30.5850" horizDistance="4.160"/>
+			<ReducedObservation name="OBS-41" purpose="normal" setupID="IS-37" targetSetupID="IS-38" azimuth="30.5850" horizDistance="2.500"/>
+			<ReducedObservation name="OBS-42" purpose="normal" setupID="IS-38" targetSetupID="IS-39" azimuth="30.5850" horizDistance="2.370"/>
+			<ReducedObservation name="OBS-43" purpose="normal" setupID="IS-39" targetSetupID="IS-40" azimuth="30.5850" horizDistance="5.240"/>
+			<ReducedObservation name="OBS-44" purpose="normal" setupID="IS-40" targetSetupID="IS-41" azimuth="82.42" horizDistance="9.110"/>
+			<ReducedObservation name="OBS-45" purpose="normal" setupID="IS-41" targetSetupID="IS-42" azimuth="68.3336" horizDistance="8.807"/>
+			<ReducedObservation name="OBS-46" purpose="normal" setupID="IS-42" targetSetupID="IS-29" azimuth="68.3336" horizDistance="4.654"/>
+			<ReducedObservation name="OBS-47" purpose="normal" setupID="IS-39" targetSetupID="IS-42" azimuth="66.0040" horizDistance="21.815"/>
+			<ReducedObservation name="OBS-48" purpose="normal" setupID="IS-38" targetSetupID="IS-43" azimuth="84.50" horizDistance="8.830"/>
+			<ReducedObservation name="OBS-49" purpose="normal" setupID="IS-43" targetSetupID="IS-44" azimuth="98.20" horizDistance="11.250"/>
+			<ReducedObservation name="OBS-50" purpose="normal" setupID="IS-44" targetSetupID="IS-45" azimuth="188.20" horizDistance="2.500"/>
+			<ReducedObservation name="OBS-51" purpose="normal" setupID="IS-45" targetSetupID="IS-46" azimuth="278.20" horizDistance="11.250"/>
+			<ReducedObservation name="OBS-52" purpose="normal" setupID="IS-46" targetSetupID="IS-37" azimuth="267.1540" horizDistance="9.730"/>
+			<ReducedObservation name="OBS-53" purpose="normal" setupID="IS-32" targetSetupID="IS-134" azimuth="210.5850" horizDistance="24.290"/>
+			<ReducedObservation name="OBS-54" purpose="normal" setupID="IS-47" targetSetupID="IS-48" azimuth="290.29" horizDistance="18.710"/>
+			<ReducedObservation name="OBS-55" purpose="normal" setupID="IS-49" targetSetupID="IS-50" azimuth="300.5850" horizDistance="12.680"/>
+			<ReducedObservation name="OBS-56" purpose="normal" setupID="IS-50" targetSetupID="IS-51" azimuth="30.5850" horizDistance="3.450"/>
+			<ReducedObservation name="OBS-57" purpose="normal" setupID="IS-51" targetSetupID="IS-52" azimuth="30.5850" horizDistance="2.500"/>
+			<ReducedObservation name="OBS-58" purpose="normal" setupID="IS-52" targetSetupID="IS-33" azimuth="30.5852" horizDistance="4.059"/>
+			<ReducedObservation name="OBS-59" purpose="normal" setupID="IS-51" targetSetupID="IS-53" azimuth="133.58" horizDistance="14.570"/>
+			<ReducedObservation name="OBS-60" purpose="normal" setupID="IS-52" targetSetupID="IS-54" azimuth="133.58" horizDistance="14.570"/>
+			<ReducedObservation name="OBS-61" purpose="normal" setupID="IS-30" targetSetupID="IS-54" azimuth="265.04" horizDistance="24.538"/>
+			<ReducedObservation name="OBS-62" purpose="normal" setupID="IS-31" targetSetupID="IS-53" azimuth="265.04" horizDistance="24.538"/>
+			<ReducedObservation name="OBS-63" purpose="normal" setupID="IS-16" targetSetupID="IS-55" azimuth="309.5150" horizDistance="3.000"/>
+			<ReducedObservation name="OBS-64" purpose="normal" setupID="IS-55" targetSetupID="IS-7" azimuth="309.5150" horizDistance="5.270"/>
+			<ReducedObservation name="OBS-65" purpose="normal" setupID="IS-7" targetSetupID="IS-56" azimuth="309.5150" horizDistance="9.910"/>
+			<ReducedObservation name="OBS-66" purpose="normal" setupID="IS-56" targetSetupID="IS-57" azimuth="309.5150" horizDistance="3.000"/>
+			<ReducedObservation name="OBS-67" purpose="normal" setupID="IS-57" targetSetupID="IS-60" azimuth="309.5150" horizDistance="11.012"/>
+			<ReducedObservation name="OBS-68" purpose="normal" setupID="IS-9" targetSetupID="IS-58" azimuth="267.3150" horizDistance="45.900"/>
+			<ReducedObservation name="OBS-69" purpose="normal" setupID="IS-58" targetSetupID="IS-59" azimuth="177.3150" horizDistance="1.830"/>
+			<ReducedObservation name="OBS-70" purpose="normal" setupID="IS-60" targetSetupID="IS-9" azimuth="309.5150" horizDistance="2.718"/>
+			<ReducedObservation name="OBS-71" purpose="normal" setupID="IS-59" targetSetupID="IS-60" azimuth="87.3150" horizDistance="47.909"/>
+			<ReducedObservation name="OBS-72" purpose="normal" setupID="IS-59" targetSetupID="IS-61" azimuth="177.3150" horizDistance="33.270"/>
+			<ReducedObservation name="OBS-73" purpose="normal" setupID="IS-61" targetSetupID="IS-62" azimuth="96.53" horizDistance="8.280"/>
+			<ReducedObservation name="OBS-74" purpose="normal" setupID="IS-62" targetSetupID="IS-63" azimuth="82.42" horizDistance="17.150"/>
+			<ReducedObservation name="OBS-75" purpose="normal" setupID="IS-63" targetSetupID="IS-64" azimuth="68.30" horizDistance="23.740"/>
+			<ReducedObservation name="OBS-76" purpose="normal" setupID="IS-64" targetSetupID="IS-65" azimuth="30.5850" horizDistance="16.160"/>
+			<ReducedObservation name="OBS-77" purpose="normal" setupID="IS-65" targetSetupID="IS-57" azimuth="350.2937" horizDistance="4.565"/>
+			<ReducedObservation name="OBS-78" purpose="normal" setupID="IS-61" targetSetupID="IS-168" azimuth="262.22" horizDistance="13.610"/>
+			<ReducedObservation name="OBS-79" purpose="normal" setupID="IS-66" targetSetupID="IS-67" azimuth="262.22" horizDistance="1.790"/>
+			<ReducedObservation name="OBS-80" purpose="normal" setupID="IS-67" targetSetupID="IS-68" azimuth="313.1240" horizDistance="13.880"/>
+			<ReducedObservation name="OBS-81" purpose="normal" setupID="IS-58" targetSetupID="IS-170" azimuth="267.3150" horizDistance="43.421"/>
+			<ReducedObservation name="OBS-82" purpose="normal" setupID="IS-70" targetSetupID="IS-71" azimuth="177.3150" horizDistance="1.830"/>
+			<ReducedObservation name="OBS-83" purpose="normal" setupID="IS-71" targetSetupID="IS-72" azimuth="177.3150" horizDistance="1.170"/>
+			<ReducedObservation name="OBS-84" purpose="normal" setupID="IS-72" targetSetupID="IS-105" azimuth="133.1228" horizDistance="2.649"/>
+			<ReducedObservation name="OBS-85" purpose="normal" setupID="IS-59" targetSetupID="IS-106" azimuth="267.3150" horizDistance="44.639"/>
+			<ReducedObservation name="OBS-86" purpose="normal" setupID="IS-69" targetSetupID="IS-106" azimuth="139.0720" horizDistance="2.335"/>
+			<ReducedObservation name="OBS-87" purpose="normal" setupID="IS-68" targetSetupID="IS-92" azimuth="327.30" horizDistance="11.562"/>
+			<ReducedObservation name="OBS-88" purpose="normal" setupID="IS-66" targetSetupID="IS-73" azimuth="323.5040" horizDistance="27.427"/>
+			<ReducedObservation name="OBS-89" purpose="normal" setupID="IS-49" targetSetupID="IS-133" azimuth="205.14" horizDistance="22.020"/>
+			<ReducedObservation name="OBS-90" purpose="normal" setupID="IS-74" targetSetupID="IS-75" azimuth="272.45" horizDistance="16.560"/>
+			<ReducedObservation name="OBS-91" purpose="normal" setupID="IS-75" targetSetupID="IS-76" azimuth="347.53" horizDistance="9.480"/>
+			<ReducedObservation name="OBS-92" purpose="normal" setupID="IS-74" targetSetupID="IS-77" azimuth="205.14" horizDistance="2.165"/>
+			<ReducedObservation name="OBS-93" purpose="normal" setupID="IS-77" targetSetupID="IS-48" azimuth="205.14" horizDistance="3.765"/>
+			<ReducedObservation name="OBS-94" purpose="normal" setupID="IS-48" targetSetupID="IS-79" azimuth="291.33" horizDistance="20.620"/>
+			<ReducedObservation name="OBS-95" purpose="normal" setupID="IS-78" targetSetupID="IS-77" azimuth="92.45" horizDistance="17.271"/>
+			<ReducedObservation name="OBS-96" purpose="normal" setupID="IS-50" targetSetupID="IS-80" azimuth="300.5850" horizDistance="8.000"/>
+			<ReducedObservation name="OBS-97" purpose="normal" setupID="IS-80" targetSetupID="IS-138" azimuth="205.1408" horizDistance="24.282"/>
+			<ReducedObservation name="OBS-98" purpose="normal" setupID="IS-79" targetSetupID="IS-81" azimuth="302.0840" horizDistance="41.270"/>
+			<ReducedObservation name="OBS-99" purpose="normal" setupID="IS-81" targetSetupID="IS-82" azimuth="355.4720" horizDistance="4.700"/>
+			<ReducedObservation name="OBS-100" purpose="normal" setupID="IS-82" targetSetupID="IS-85" azimuth="55.1320" horizDistance="1.118"/>
+			<ReducedObservation name="OBS-101" purpose="normal" setupID="IS-83" targetSetupID="IS-80" azimuth="138.5559" horizDistance="25.532"/>
+			<ReducedObservation name="OBS-102" purpose="normal" setupID="IS-76" targetSetupID="IS-152" azimuth="300.0420" horizDistance="9.976"/>
+			<ReducedObservation name="OBS-103" purpose="normal" setupID="IS-84" targetSetupID="IS-78" azimuth="167.53" horizDistance="10.132"/>
+			<ReducedObservation name="OBS-104" purpose="normal" setupID="IS-85" targetSetupID="IS-157" azimuth="55.1320" horizDistance="7.986"/>
+			<ReducedObservation name="OBS-105" purpose="normal" setupID="IS-85" targetSetupID="IS-84" azimuth="120.0420" horizDistance="41.342"/>
+			<ReducedObservation name="OBS-106" purpose="normal" setupID="IS-82" targetSetupID="IS-86" azimuth="355.4720" horizDistance="23.230"/>
+			<ReducedObservation name="OBS-107" purpose="normal" setupID="IS-86" targetSetupID="IS-87" azimuth="55.1320" horizDistance="28.010"/>
+			<ReducedObservation name="OBS-108" purpose="normal" setupID="IS-87" targetSetupID="IS-67" azimuth="348.1651" horizDistance="5.755"/>
+			<ReducedObservation name="OBS-109" purpose="normal" setupID="IS-87" targetSetupID="IS-166" azimuth="145.1355" horizDistance="0.946"/>
+			<ReducedObservation name="OBS-110" purpose="normal" setupID="IS-88" targetSetupID="IS-83" azimuth="145.1355" horizDistance="17.002"/>
+			<ReducedObservation name="OBS-111" purpose="normal" setupID="IS-89" targetSetupID="IS-88" azimuth="55.1320" horizDistance="27.459"/>
+			<ReducedObservation name="OBS-112" purpose="normal" setupID="IS-90" targetSetupID="IS-89" azimuth="355.4720" horizDistance="18.645"/>
+			<ReducedObservation name="OBS-113" purpose="normal" setupID="IS-69" targetSetupID="IS-91" azimuth="267.3150" horizDistance="4.467"/>
+			<ReducedObservation name="OBS-114" purpose="normal" setupID="IS-91" targetSetupID="IS-70" azimuth="267.3150" horizDistance="4.203"/>
+			<ReducedObservation name="OBS-115" purpose="normal" setupID="IS-91" targetSetupID="IS-104" azimuth="139.0720" horizDistance="2.335"/>
+			<ReducedObservation name="OBS-116" purpose="normal" setupID="IS-7" targetSetupID="IS-93" azimuth="214.1449" horizDistance="25.580"/>
+			<ReducedObservation name="OBS-117" purpose="normal" setupID="IS-93" targetSetupID="IS-94" azimuth="283.5450" horizDistance="15.110"/>
+			<ReducedObservation name="OBS-118" purpose="normal" setupID="IS-94" targetSetupID="IS-95" azimuth="226.3150" horizDistance="37.920"/>
+			<ReducedObservation name="OBS-119" purpose="normal" setupID="IS-95" targetSetupID="IS-96" azimuth="277.1250" horizDistance="30.950"/>
+			<ReducedObservation name="OBS-120" purpose="normal" setupID="IS-96" targetSetupID="IS-97" azimuth="185.3350" horizDistance="62.590"/>
+			<ReducedObservation name="OBS-121" purpose="normal" setupID="IS-71" targetSetupID="IS-98" azimuth="267.3123" horizDistance="20.807"/>
+			<ReducedObservation name="OBS-126" purpose="normal" setupID="IS-9" targetSetupID="IS-103" azimuth="10.0350" horizDistance="10.000"/>
+			<ReducedObservation name="OBS-127" purpose="normal" setupID="IS-104" targetSetupID="IS-71" azimuth="267.3150" horizDistance="5.654"/>
+			<ReducedObservation name="OBS-128" purpose="normal" setupID="IS-104" targetSetupID="IS-92" azimuth="139.0720" horizDistance="19.492"/>
+			<ReducedObservation name="OBS-129" purpose="normal" setupID="IS-104" targetSetupID="IS-105" azimuth="228.40" horizDistance="4.885"/>
+			<ReducedObservation name="OBS-130" purpose="normal" setupID="IS-105" targetSetupID="IS-68" azimuth="133.1228" horizDistance="31.057"/>
+			<ReducedObservation name="OBS-131" purpose="normal" setupID="IS-106" targetSetupID="IS-104" azimuth="267.3150" horizDistance="4.467"/>
+			<ReducedObservation name="OBS-132" purpose="normal" setupID="IS-106" targetSetupID="IS-73" azimuth="139.0720" horizDistance="15.609"/>
+			<ReducedObservation name="OBS-133" purpose="normal" setupID="IS-107" targetSetupID="IS-108" azimuth="129.5150" horizDistance="12.798"/>
+			<ReducedObservation name="OBS-134" purpose="normal" setupID="IS-108" targetSetupID="IS-109" azimuth="210.5850" horizDistance="24.870"/>
+			<ReducedObservation name="OBS-135" purpose="normal" setupID="IS-109" targetSetupID="IS-110" azimuth="300.4631" horizDistance="14.246"/>
+			<ReducedObservation name="OBS-136" purpose="normal" setupID="IS-110" targetSetupID="IS-111" azimuth="338.30" horizDistance="4.457"/>
+			<ReducedObservation name="OBS-137" purpose="normal" setupID="IS-111" targetSetupID="IS-112" azimuth="68.30" horizDistance="8.435"/>
+			<ReducedObservation name="OBS-138" purpose="normal" setupID="IS-112" targetSetupID="IS-107" azimuth="30.5850" horizDistance="17.493"/>
+			<ReducedObservation name="OBS-139" purpose="normal" setupID="IS-113" targetSetupID="IS-114" azimuth="300.5850" horizDistance="23.000"/>
+			<ReducedObservation name="OBS-140" purpose="normal" setupID="IS-114" targetSetupID="IS-115" azimuth="30.5850" horizDistance="12.383"/>
+			<ReducedObservation name="OBS-141" purpose="normal" setupID="IS-115" targetSetupID="IS-116" azimuth="68.2717" horizDistance="3.191"/>
+			<ReducedObservation name="OBS-142" purpose="normal" setupID="IS-113" targetSetupID="IS-117" azimuth="30.5850" horizDistance="14.991"/>
+			<ReducedObservation name="OBS-143" purpose="normal" setupID="IS-117" targetSetupID="IS-116" azimuth="300.4631" horizDistance="21.059"/>
+			<ReducedObservation name="OBS-144" purpose="normal" setupID="IS-118" targetSetupID="IS-119" azimuth="120.5850" horizDistance="25.000"/>
+			<ReducedObservation name="OBS-145" purpose="normal" setupID="IS-120" targetSetupID="IS-119" azimuth="30.5850" horizDistance="13.000"/>
+			<ReducedObservation name="OBS-146" purpose="normal" setupID="IS-120" targetSetupID="IS-121" azimuth="300.5850" horizDistance="6.000"/>
+			<ReducedObservation name="OBS-147" purpose="normal" setupID="IS-121" targetSetupID="IS-122" azimuth="30.5850" horizDistance="4.000"/>
+			<ReducedObservation name="OBS-148" purpose="normal" setupID="IS-122" targetSetupID="IS-123" azimuth="300.5850" horizDistance="9.500"/>
+			<ReducedObservation name="OBS-149" purpose="normal" setupID="IS-123" targetSetupID="IS-124" azimuth="210.5850" horizDistance="5.000"/>
+			<ReducedObservation name="OBS-150" purpose="normal" setupID="IS-124" targetSetupID="IS-125" azimuth="300.5850" horizDistance="9.500"/>
+			<ReducedObservation name="OBS-151" purpose="normal" setupID="IS-118" targetSetupID="IS-125" azimuth="210.5850" horizDistance="14.000"/>
+			<ReducedObservation name="OBS-152" purpose="normal" setupID="IS-126" targetSetupID="IS-127" azimuth="205.14" horizDistance="19.000"/>
+			<ReducedObservation name="OBS-153" purpose="normal" setupID="IS-127" targetSetupID="IS-128" azimuth="115.14" horizDistance="10.545"/>
+			<ReducedObservation name="OBS-154" purpose="normal" setupID="IS-128" targetSetupID="IS-129" azimuth="30.5850" horizDistance="22.110"/>
+			<ReducedObservation name="OBS-155" purpose="normal" setupID="IS-129" targetSetupID="IS-130" azimuth="300.5850" horizDistance="6.000"/>
+			<ReducedObservation name="OBS-156" purpose="normal" setupID="IS-126" targetSetupID="IS-131" azimuth="133.58" horizDistance="0.398"/>
+			<ReducedObservation name="OBS-157" purpose="normal" setupID="IS-131" targetSetupID="IS-130" azimuth="85.04" horizDistance="7.418"/>
+			<ReducedObservation name="OBS-158" purpose="normal" setupID="IS-132" targetSetupID="IS-133" azimuth="314.14" horizDistance="4.691"/>
+			<ReducedObservation name="OBS-159" purpose="normal" setupID="IS-133" targetSetupID="IS-74" azimuth="205.14" horizDistance="1.940"/>
+			<ReducedObservation name="OBS-160" purpose="normal" setupID="IS-132" targetSetupID="IS-134" azimuth="90.1240" horizDistance="17.013"/>
+			<ReducedObservation name="OBS-161" purpose="normal" setupID="IS-134" targetSetupID="IS-47" azimuth="210.5850" horizDistance="12.050"/>
+			<ReducedObservation name="OBS-162" purpose="normal" setupID="IS-133" targetSetupID="IS-135" azimuth="314.14" horizDistance="4.480"/>
+			<ReducedObservation name="OBS-163" purpose="normal" setupID="IS-135" targetSetupID="IS-136" azimuth="314.14" horizDistance="3.120"/>
+			<ReducedObservation name="OBS-164" purpose="normal" setupID="IS-136" targetSetupID="IS-137" azimuth="263.36" horizDistance="7.080"/>
+			<ReducedObservation name="OBS-165" purpose="normal" setupID="IS-137" targetSetupID="IS-146" azimuth="303.20" horizDistance="4.273"/>
+			<ReducedObservation name="OBS-166" purpose="normal" setupID="IS-138" targetSetupID="IS-79" azimuth="205.1408" horizDistance="9.004"/>
+			<ReducedObservation name="OBS-167" purpose="normal" setupID="IS-135" targetSetupID="IS-139" azimuth="2.45" horizDistance="10.280"/>
+			<ReducedObservation name="OBS-168" purpose="normal" setupID="IS-139" targetSetupID="IS-140" azimuth="272.45" horizDistance="1.000"/>
+			<ReducedObservation name="OBS-169" purpose="normal" setupID="IS-140" targetSetupID="IS-141" azimuth="2.45" horizDistance="5.750"/>
+			<ReducedObservation name="OBS-170" purpose="normal" setupID="IS-141" targetSetupID="IS-142" azimuth="30.5850" horizDistance="3.732"/>
+			<ReducedObservation name="OBS-171" purpose="normal" setupID="IS-142" targetSetupID="IS-143" azimuth="300.5850" horizDistance="5.740"/>
+			<ReducedObservation name="OBS-172" purpose="normal" setupID="IS-143" targetSetupID="IS-144" azimuth="224.07" horizDistance="6.050"/>
+			<ReducedObservation name="OBS-173" purpose="normal" setupID="IS-144" targetSetupID="IS-145" azimuth="205.1408" horizDistance="12.330"/>
+			<ReducedObservation name="OBS-174" purpose="normal" setupID="IS-145" targetSetupID="IS-146" azimuth="182.45" horizDistance="2.985"/>
+			<ReducedObservation name="OBS-175" purpose="normal" setupID="IS-146" targetSetupID="IS-138" azimuth="303.20" horizDistance="3.164"/>
+			<ReducedObservation name="OBS-176" purpose="normal" setupID="IS-138" targetSetupID="IS-150" azimuth="303.20" horizDistance="1.010"/>
+			<ReducedObservation name="OBS-177" purpose="normal" setupID="IS-147" targetSetupID="IS-148" azimuth="318.5559" horizDistance="13.500"/>
+			<ReducedObservation name="OBS-178" purpose="normal" setupID="IS-148" targetSetupID="IS-149" azimuth="220.11" horizDistance="20.910"/>
+			<ReducedObservation name="OBS-179" purpose="normal" setupID="IS-147" targetSetupID="IS-151" azimuth="205.1408" horizDistance="15.100"/>
+			<ReducedObservation name="OBS-180" purpose="normal" setupID="IS-151" targetSetupID="IS-153" azimuth="264.56" horizDistance="7.112"/>
+			<ReducedObservation name="OBS-181" purpose="normal" setupID="IS-152" targetSetupID="IS-90" azimuth="300.0420" horizDistance="32.360"/>
+			<ReducedObservation name="OBS-182" purpose="normal" setupID="IS-149" targetSetupID="IS-153" azimuth="133.5054" horizDistance="12.256"/>
+			<ReducedObservation name="OBS-183" purpose="normal" setupID="IS-153" targetSetupID="IS-150" azimuth="133.5054" horizDistance="6.479"/>
+			<ReducedObservation name="OBS-184" purpose="normal" setupID="IS-149" targetSetupID="IS-154" azimuth="313.5054" horizDistance="3.256"/>
+			<ReducedObservation name="OBS-185" purpose="normal" setupID="IS-154" targetSetupID="IS-155" azimuth="234.17" horizDistance="6.010"/>
+			<ReducedObservation name="OBS-186" purpose="normal" setupID="IS-155" targetSetupID="IS-156" azimuth="302.09" horizDistance="13.940"/>
+			<ReducedObservation name="OBS-187" purpose="normal" setupID="IS-156" targetSetupID="IS-157" azimuth="23.29" horizDistance="4.356"/>
+			<ReducedObservation name="OBS-188" purpose="normal" setupID="IS-157" targetSetupID="IS-83" azimuth="55.1320" horizDistance="30.716"/>
+			<ReducedObservation name="OBS-189" purpose="normal" setupID="IS-158" targetSetupID="IS-165" azimuth="235.1320" horizDistance="24.180"/>
+			<ReducedObservation name="OBS-190" purpose="normal" setupID="IS-157" targetSetupID="IS-159" azimuth="23.29" horizDistance="4.530"/>
+			<ReducedObservation name="OBS-191" purpose="normal" setupID="IS-158" targetSetupID="IS-160" azimuth="325.1355" horizDistance="12.400"/>
+			<ReducedObservation name="OBS-192" purpose="normal" setupID="IS-160" targetSetupID="IS-161" azimuth="253.07" horizDistance="7.150"/>
+			<ReducedObservation name="OBS-193" purpose="normal" setupID="IS-161" targetSetupID="IS-162" azimuth="216.40" horizDistance="1.640"/>
+			<ReducedObservation name="OBS-194" purpose="normal" setupID="IS-162" targetSetupID="IS-163" azimuth="257.26" horizDistance="5.110"/>
+			<ReducedObservation name="OBS-195" purpose="normal" setupID="IS-159" targetSetupID="IS-164" azimuth="355.47" horizDistance="16.980"/>
+			<ReducedObservation name="OBS-196" purpose="normal" setupID="IS-164" targetSetupID="IS-163" azimuth="55.0813" horizDistance="1.642"/>
+			<ReducedObservation name="OBS-197" purpose="normal" setupID="IS-159" targetSetupID="IS-165" azimuth="175.47" horizDistance="1.606"/>
+			<ReducedObservation name="OBS-198" purpose="normal" setupID="IS-161" targetSetupID="IS-166" azimuth="36.40" horizDistance="10.870"/>
+			<ReducedObservation name="OBS-199" purpose="normal" setupID="IS-166" targetSetupID="IS-88" azimuth="145.1355" horizDistance="2.054"/>
+			<ReducedObservation name="OBS-200" purpose="normal" setupID="IS-167" targetSetupID="IS-168" azimuth="192.16" horizDistance="3.660"/>
+			<ReducedObservation name="OBS-201" purpose="normal" setupID="IS-168" targetSetupID="IS-66" azimuth="262.22" horizDistance="6.200"/>
+			<ReducedObservation name="OBS-202" purpose="normal" setupID="IS-167" targetSetupID="IS-169" azimuth="323.55" horizDistance="23.790"/>
+			<ReducedObservation name="OBS-203" purpose="normal" setupID="IS-169" targetSetupID="IS-173" azimuth="303.53" horizDistance="16.826"/>
+			<ReducedObservation name="OBS-204" purpose="normal" setupID="IS-170" targetSetupID="IS-69" azimuth="267.3150" horizDistance="2.669"/>
+			<ReducedObservation name="OBS-205" purpose="normal" setupID="IS-167" targetSetupID="IS-171" azimuth="82.22" horizDistance="10.667"/>
+			<ReducedObservation name="OBS-206" purpose="normal" setupID="IS-171" targetSetupID="IS-172" azimuth="357.3150" horizDistance="13.020"/>
+			<ReducedObservation name="OBS-207" purpose="normal" setupID="IS-172" targetSetupID="IS-174" azimuth="325.31" horizDistance="18.640"/>
+			<ReducedObservation name="OBS-208" purpose="normal" setupID="IS-173" targetSetupID="IS-170" azimuth="303.53" horizDistance="5.061"/>
+			<ReducedObservation name="OBS-209" purpose="normal" setupID="IS-173" targetSetupID="IS-174" azimuth="87.3150" horizDistance="27.463"/>
+			<ReducedObservation name="OBS-210" purpose="normal" setupID="IS-70" targetSetupID="IS-175" azimuth="267.3123" horizDistance="19.428"/>
+			<ReducedObservation name="OBS-212" purpose="normal" setupID="IS-175" targetSetupID="IS-98" azimuth="214.3206" horizDistance="2.292"/>
+			<!-- Topo Observations (lines for fixing floating lots, easements and restriction footprints) -->
+			<ReducedObservation name="OBS-213" purpose="topo" setupID="IS-13" targetSetupID="IS-109" azimuth="322.4137" horizDistance="5.382"/>
+			<ReducedObservation name="OBS-214" purpose="topo" setupID="IS-26" targetSetupID="IS-113" azimuth="322.4655" horizDistance="5.385"/>
+			<ReducedObservation name="OBS-215" purpose="topo" setupID="IS-26" targetSetupID="IS-119" azimuth="279.1045" horizDistance="5.385"/>
+			<ReducedObservation name="OBS-216" purpose="topo" setupID="IS-32" targetSetupID="IS-129" azimuth="265.4542" horizDistance="9.792"/>
+			<!-- Permanent Marks -->
+			<RedHorizontalPosition name="HP-1" oID="317502030" desc="MOOROODUC PM 203" setupID="IS-99" date="2009-04-02" currencyDate="2009-04-02" horizontalDatum="MGA94_Zone55" latitude="5770128.696" longitude="331787.580" horizontalFix="GPS(Differential)" order="2" horizontalAdjustment="OSG"/>
+			<RedHorizontalPosition name="HP-2" oID="118210219" desc="PCM 118210219" setupID="IS-1" date="2010-10-21" currencyDate="2010-10-21" horizontalDatum="MGA94_Zone55" latitude="5770024.150" longitude="331679.860" horizontalFix="Cadastral" order="4" horizontalAdjustment="WATSONS"/>
+			<RedHorizontalPosition name="HP-3" oID="317502010" desc="MOOROODUC PM  201" setupID="IS-176" date="2002-05-01" currencyDate="2002-05-01" horizontalDatum="MGA94_Zone55" latitude="5769920.000" longitude="331770.000" horizontalFix="Transformed" order="99" horizontalAdjustment="OSG"/>
+			<RedHorizontalPosition name="HP-4" oID="116690100" desc="PCM116690100" setupID="IS-177" date="2002-08-21" currencyDate="2002-08-21" horizontalDatum="MGA94_Zone55" latitude="5770009.800" longitude="331764.600" horizontalFix="Transformed" order="5" horizontalAdjustment="OSG"/>
+			<RedHorizontalPosition name="HP-5" oID="317502040" desc="MOOROODUC PM 204" setupID="IS-178" date="2002-08-21" currencyDate="2002-08-21" horizontalDatum="MGA94_Zone55" latitude="5770074.730" longitude="331756.258" horizontalFix="Transformed" order="5" horizontalAdjustment="OSG"/>			
+			  
+			
+			
+			<RedVerticalObservation name="VO-1" oID="317502030" desc="MOOROODUC PM 203" setupID="IS-99" date="2004-06-21" verticalDatum="AHD" height="75.700" verticalFix="GPS" order="5" verticalAdjustment="GEOD"/>
+		</ObservationGroup>
+	</Survey>
+	<Monuments>
+		<!-- Monuments representing Permanent Marks -->
+		<Monument name="MON-1" pntRef="CGPNT-1" type="Plaque" state="Existing" condition="OK"/>
+		<Monument name="MON-5" pntRef="CGPNT-99" type="Plaque" state="Existing" condition="OK"/>
+		<Monument name="MON-8" pntRef="CGPNT-176" type="Plaque" state="Existing" condition="OK"/>
+		<Monument name="MON-9" pntRef="CGPNT-177" type="Plaque" state="Existing" condition="OK"/>
+		<Monument name="MON-10" pntRef="CGPNT-216" type="Plaque" state="Existing" condition="OK"/>
+		
+		<!-- Monuments representing Title Corners -->
+		<Monument name="MON-2" pntRef="CGPNT-9" type="Nail" state="Existing" condition="Found"/>
+		<Monument name="MON-3" pntRef="CGPNT-47" type="Not Marked" state="Existing" condition="Found"/>
+		<Monument name="MON-4" pntRef="CGPNT-98" type="Not Marked" state="Existing" condition="Found"/>
+		<Monument name="MON-7" pntRef="CGPNT-175" type="Not Marked" state="Existing" condition="Found"/>
+		<!-- Monuments representing Reference Marks used for radiations -->
+		<Monument name="MON-6" pntRef="CGPNT-101" type="Nail" state="Existing" condition="Found"/>
+	</Monuments>
+</LandXML>

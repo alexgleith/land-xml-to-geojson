@@ -171,6 +171,10 @@ make-dir@^1.0.0:
   dependencies:
     pify "^3.0.0"
 
+mgrs@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/mgrs/-/mgrs-1.0.0.tgz#fb91588e78c90025672395cb40b25f7cd6ad1829"
+
 minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
@@ -213,6 +217,13 @@ path-parse@^1.0.5:
 pify@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
+
+proj4@^2.4.4:
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/proj4/-/proj4-2.4.4.tgz#c03d825e380f6850a4a7af5d20d365f6b72c4042"
+  dependencies:
+    mgrs "1.0.0"
+    wkt-parser "^1.2.0"
 
 resolve@~1.5.0:
   version "1.5.0"
@@ -273,6 +284,10 @@ tape@^4.9.0:
 through@~2.3.4, through@~2.3.8:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
+
+wkt-parser@^1.2.0:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/wkt-parser/-/wkt-parser-1.2.1.tgz#3339689dbc549c103fc5c7447543534785ff8d4d"
 
 wrappy@1:
   version "1.0.2"
