@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.1" xmlns:c="urn:au:gov:qld:nrm:schema:common" xmlns:u="urn:au:gov:qld:nrm:schema:util" xmlns:ns0="urn:au:gov:qld:nrm:service:location:parcelgraphics" xmlns:s="urn:au:gov:qld:nrm:schema:service:location" time="15:13:16" date="2006-02-15" version="0" language="English" readOnly="false">
+	<Units>
+		<Metric linearUnit="meter" temperatureUnit="celsius" volumeUnit="cubicMeter" areaUnit="squareMeter" pressureUnit="milliBars" angularUnit="decimal dd.mm.ss" directionUnit="decimal dd.mm.ss" />
+	</Units>
+	<Parcels>
+		<Parcel useOfParcel="Local Government" class="Administrative Area" parcelFormat="Standard" state="existing" name="4600LOGAN CITY" desc="LOGAN CITY" />
+		<Parcel useOfParcel="Parish" class="Administrative Area" parcelFormat="Standard" state="existing" name="2968MACKENZIE" desc="MACKENZIE" />
+		<Parcel useOfParcel="County" class="Administrative Area" parcelFormat="Standard" state="existing" name="254STANLEY" desc="STANLEY" />
+		<Parcel useOfParcel="Locality" class="Administrative Area" parcelFormat="Standard" state="existing" name="1572LOGANHOLME" desc="LOGANHOLME" />
+		<Parcel name="220/S31492" state="affected" parcelFormat="Standard" class="lot" desc="P.220 ">
+			<Parcels>
+				<Parcel name="1/SP179652" pclRef="1/SP179652" />
+				<Parcel name="2/SP179652" pclRef="2/SP179652" />
+			</Parcels>
+			<Title name="" titleType="original grant" />
+		</Parcel>
+		<Parcel class="lot" parcelFormat="Standard" state="
+existing" name="79/RP125412" area="2653.00" desc="4074/93 ">
+			<Center pntRef="CENTRE 1" />
+			<CoordGeom>
+				<Line>
+					<Start pntRef="10-SP179652" />
+					<End pntRef="D" />
+				</Line>
+				<Line desc="RIGHT-LINE">
+					<Start pntRef="D" />
+					<End pntRef="A" />
+				</Line>
+				<Line>
+					<Start pntRef="A" />
+					<End pntRef="3-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="3-SP179652" />
+					<End pntRef="4-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="4-SP179652" />
+					<End pntRef="10-SP179652" />
+				</Line>
+			</CoordGeom>
+			<Parcels>
+				<Parcel name="4600LOGAN CITY" pclRef="4600LOGAN CITY" />
+				<Parcel name="2968MACKENZIE" pclRef="2968MACKENZIE" />
+				<Parcel name="254STANLEY" pclRef="254STANLEY" />
+				<Parcel name="1572LOGANHOLME" pclRef="1572LOGANHOLME" />
+			</Parcels>
+			<Title titleType="title" name="14576014" />
+			<Exclusions exclusionType="area" area="0.00" />
+			<Feature>
+				<Property value="Y" label="areaSurveyedFlag" />
+				<Property value="FREEHOLD" label="dcdbTenureRecord" />
+			</Feature>
+		</Parcel>
+		<Parcel class="road" parcelFormat="Standard" state="existing" name="R1" desc="BIMBADEEN DRIVE">
+			<CoordGeom>
+				<Line>
+					<Start pntRef="CLIPPED 601" />
+					<End pntRef="CLIPPED 603" />
+				</Line>
+				<Line>
+					<Start pntRef="CLIPPED 603" />
+					<End pntRef="CLIPPED 604" />
+				</Line>
+				<Line>
+					<Start pntRef="CLIPPED 604" />
+					<End pntRef="I" />
+				</Line>
+				<Line>
+					<Start pntRef="I" />
+					<End pntRef="7-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="7-SP179652" />
+					<End pntRef="6-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="6-SP179652" />
+					<End pntRef="5-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="5-SP179652" />
+					<End pntRef="4-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="4-SP179652" />
+					<End pntRef="3-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="3-SP179652" />
+					<End pntRef="A" />
+				</Line>
+				<Line>
+					<Start pntRef="A" />
+					<End pntRef="CLIPPED 600" />
+				</Line>
+				<Line>
+					<Start pntRef="CLIPPED 600" />
+					<End pntRef="CLIPPED 601" />
+				</Line>
+			</CoordGeom>
+			<Parcels>
+				<Parcel name="4600LOGAN CITY" pclRef="4600LOGAN CITY" />
+				<Parcel name="2968MACKENZIE" pclRef="2968MACKENZIE" />
+				<Parcel name="254STANLEY" pclRef="254STANLEY" />
+				<Parcel name="1572LOGANHOLME" pclRef="1572LOGANHOLME" />
+			</Parcels>
+		</Parcel>
+		<Parcel name="80/RP125412" state="extinguished" parcelFormat="Standard" class="lot">
+			<Center pntRef="CENTRE 2" />
+			<CoordGeom>
+				<Line>
+					<Start pntRef="9-SP179652" />
+					<End pntRef="10-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="10-SP179652" />
+					<End pntRef="4-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="4-SP179652" />
+					<End pntRef="5-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="5-SP179652" />
+					<End pntRef="9-SP179652" />
+				</Line>
+			</CoordGeom>
+			<Parcels>
+				<Parcel name="4600LOGAN CITY" pclRef="4600LOGAN CITY" />
+				<Parcel name="2968MACKENZIE" pclRef="2968MACKENZIE" />
+				<Parcel name="254STANLEY" pclRef="254STANLEY" />
+				<Parcel name="1572LOGANHOLME" pclRef="1572LOGANHOLME" />
+				<Parcel name="1/SP179652" pclRef="1/SP179652" />
+				<Parcel name="2/SP179652" pclRef="2/SP179652" />
+			</Parcels>
+			<Parcels name="part" />
+			<Title name="14576015" titleType="title" />
+			<Title name="701319765" titleType="mortgage" />
+			<Title name="702166995" titleType="mortgage" />
+			<Exclusions exclusionType="area" area="0.00" />
+			<Feature>
+				<Property value="Y" label="areaSurveyedFlag" />
+				<Property value="FREEHOLD" label="dcdbTenureRecord" />
+			</Feature>
+		</Parcel>
+		<Parcel class="road" parcelFormat="Standard" state="existing" name="R3" desc="DREWS ROAD">
+			<CoordGeom>
+				<Line>
+					<Start pntRef="CLIPPED 607" />
+					<End pntRef="D" />
+				</Line>
+				<Line>
+					<Start pntRef="D" />
+					<End pntRef="10-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="10-SP179652" />
+					<End pntRef="9-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="9-SP179652" />
+					<End pntRef="8-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="8-SP179652" />
+					<End pntRef="F" />
+				</Line>
+				<Line>
+					<Start pntRef="F" />
+					<End pntRef="CLIPPED 609" />
+				</Line>
+				<Line>
+					<Start pntRef="CLIPPED 609" />
+					<End pntRef="CLIPPED 610" />
+				</Line>
+				<Line>
+					<Start pntRef="CLIPPED 610" />
+					<End pntRef="CLIPPED 606" />
+				</Line>
+				<Line>
+					<Start pntRef="CLIPPED 606" />
+					<End pntRef="CLIPPED 608" />
+				</Line>
+				<Line>
+					<Start pntRef="CLIPPED 608" />
+					<End pntRef="CLIPPED 607" />
+				</Line>
+			</CoordGeom>
+			<Parcels>
+				<Parcel name="4600LOGAN CITY" pclRef="4600LOGAN CITY" />
+				<Parcel name="2968MACKENZIE" pclRef="2968MACKENZIE" />
+				<Parcel name="254STANLEY" pclRef="254STANLEY" />
+				<Parcel name="1572LOGANHOLME" pclRef="1572LOGANHOLME" />
+			</Parcels>
+		</Parcel>
+		<Parcel class="lot" parcelFormat="Standard" state="existing" name="81/RP125412" area="2924.00" desc="4074/95 ">
+			<Center pntRef="CENTRE 3" />
+			<CoordGeom>
+				<Line>
+					<Start pntRef="5-SP179652" />
+					<End pntRef="6-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="6-SP179652" />
+					<End pntRef="7-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="7-SP179652" />
+					<End pntRef="8-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="8-SP179652" />
+					<End pntRef="9-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="9-SP179652" />
+					<End pntRef="5-SP179652" />
+				</Line>
+			</CoordGeom>
+			<Parcels>
+				<Parcel name="4600LOGAN CITY" pclRef="4600LOGAN CITY" />
+				<Parcel name="2968MACKENZIE" pclRef="2968MACKENZIE" />
+				<Parcel name="254STANLEY" pclRef="254STANLEY" />
+				<Parcel name="1572LOGANHOLME" pclRef="1572LOGANHOLME" />
+			</Parcels>
+			<Title titleType="title" name="14576016" />
+			<Exclusions exclusionType="area" area="0.00" />
+			<Feature>
+				<Property value="Y" label="areaSurveyedFlag" />
+				<Property value="FREEHOLD" label="dcdbTenureRecord" />
+			</Feature>
+		</Parcel>
+		<Parcel name="1/SP179652" state="created" parcelFormat="Standard" class="lot" area="950">
+			<CoordGeom name="CG-1-SP179652">
+				<Line>
+					<Start pntRef="27-SP179652" />
+					<End pntRef="5-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="5-SP179652" />
+					<End pntRef="32-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="32-SP179652" />
+					<End pntRef="11-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="11-SP179652" />
+					<End pntRef="27-SP179652" />
+				</Line>
+			</CoordGeom>
+		</Parcel>
+		<Parcel name="2/SP179652" state="created" parcelFormat="Standard" class="lot" area="1899">
+			<CoordGeom name="CG-2-SP179652">
+				<Line>
+					<Start pntRef="10-SP179652" />
+					<End pntRef="20-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="20-SP179652" />
+					<End pntRef="21-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="21-SP179652" />
+					<End pntRef="4-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="4-SP179652" />
+					<End pntRef="27-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="27-SP179652" />
+					<End pntRef="11-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="11-SP179652" />
+					<End pntRef="32-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="32-SP179652" />
+					<End pntRef="9-SP179652" />
+				</Line>
+				<Line>
+					<Start pntRef="9-SP179652" />
+					<End pntRef="10-SP179652" />
+				</Line>
+			</CoordGeom>
+		</Parcel>
+	</Parcels>
+	<CgPoints>
+		<CgPoint oID="7934345" state="existing" pntSurv="boundary" name="D">
+			115.29099999926984 21.10999999998603
+		</CgPoint>
+		<CgPoint oID="7936966" state="existing" pntSurv="boundary" name="A">
+			101.95699999947101 97.64400000002934
+		</CgPoint>
+		<CgPoint oID="0" name="CENTRE 1">
+			94.85999999940395 53.17499999998836
+		</CgPoint>
+		<CgPoint oID="0" name="CENTRE 2">
+			62.671999999322 49.93100000004051
+		</CgPoint>
+		<CgPoint oID="0" name="CENTRE 3">
+			28.333999999798834 51.67000000004191
+		</CgPoint>
+		<CgPoint oID="7933749" state="existing" pntSurv="boundary" name="F">
+			12.382999999448657 2.9430000000284053
+		</CgPoint>
+		<CgPoint oID="7936621" state="existing" pntSurv="boundary" name="I">
+			1.2819999996572733 87.93900000001304
+		</CgPoint>
+		<CgPoint name="CLIPPED 600">
+			120.15599999949336 95.12099999998463
+		</CgPoint>
+		<CgPoint name="CLIPPED 601">
+			120.13899999950081 106.43300000001909
+		</CgPoint>
+		<CgPoint name="CLIPPED 603">
+			0.0 106.25599999999395
+		</CgPoint>
+		<CgPoint name="CLIPPED 604">
+			0.027999999932944775 87.74499999999534
+		</CgPoint>
+		<CgPoint name="CLIPPED 606">
+			53.68899999931455 0.07800000003771856
+		</CgPoint>
+		<CgPoint name="CLIPPED 607">
+			120.2629999993369 21.988000000012107
+		</CgPoint>
+		<CgPoint name="CLIPPED 608">
+			120.27799999993294 11.834000000031665
+		</CgPoint>
+		<CgPoint name="CLIPPED 609">
+			0.15499999932944775 0.7850000000325963
+		</CgPoint>
+		<CgPoint name="CLIPPED 610">
+			0.15599999949336052 0.0
+		</CgPoint>
+		<CgPoint oID="7934154" state="existing" pntSurv="boundary" name="10-SP179652">
+			83.31099999975413 15.464000000036322
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="20-SP179652" pntSurv="boundary">
+			82.923299 40.84904
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="21-SP179652" pntSurv="boundary">
+			82.53007 66.596037
+		</CgPoint>
+		<CgPoint oID="90488" state="existing" surveyHorizontalOrder="0.1" name="26-SP179652" pntSurv="reference">
+			339.149415 71.249389
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="27-SP179652" pntSurv="boundary">
+			76.364027 102.984568
+		</CgPoint>
+		<CgPoint oID="130152" state="existing" surveyHorizontalOrder="0.1" name="31-SP179652" pntSurv="reference">
+			22.338232 121.470047
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="32-SP179652" pntSurv="boundary">
+			50.354621 65.584831
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="48-SP179652" pntSurv="traverse">
+			22.568941 17.027404
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="49-SP179652" pntSurv="traverse">
+			76.334401 60.30006
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="40-SP179652" pntSurv="traverse">
+			339.994699 75.625286
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="41-SP179652" pntSurv="traverse">
+			87.011061 116.557527
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="42-SP179652" pntSurv="traverse">
+			86.063892 113.85067
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="43-SP179652" pntSurv="traverse">
+			83.678341 105.554764
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="44-SP179652" pntSurv="traverse">
+			80.461198 114.505377
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="45-SP179652" pntSurv="traverse">
+			51.177805 108.438838
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="47-SP179652" pntSurv="traverse">
+			10.269163 113.451791
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="46-SP179652" pntSurv="traverse">
+			25.683942 110.173089
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="1-SP179652" pntSurv="traverse">
+			339.944439 73.705944
+		</CgPoint>
+		<CgPoint oID="7937091" state="existing" surveyHorizontalOrder="0.1" pntSurv="traverse" name="2-SP179652">
+			87.195483 117.552581
+		</CgPoint>
+		<CgPoint oID="7937097" state="existing" surveyHorizontalOrder="0.1" pntSurv="traverse" name="3-SP179652">
+			84.391425 102.423238
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="4-SP179652" pntSurv="boundary">
+			81.980313 102.591839
+		</CgPoint>
+		<CgPoint oID="7937010" state="existing" surveyHorizontalOrder="0.1" pntSurv="boundary" name="5-SP179652">
+			49.755004 104.845252
+		</CgPoint>
+		<CgPoint oID="7936950" state="existing" surveyHorizontalOrder="0.1" pntSurv="traverse" name="6-SP179652">
+			28.201635 106.35241
+		</CgPoint>
+		<CgPoint oID="0" state="existing" surveyHorizontalOrder="0.1" pntSurv="traverse" name="7-SP179652">
+			17.564175 104.857413
+		</CgPoint>
+		<CgPoint oID="0" state="existing" surveyHorizontalOrder="0.1" pntSurv="traverse" name="8-SP179652">
+			18.964361 14.481511
+		</CgPoint>
+		<CgPoint oID="7933990" state="existing" surveyHorizontalOrder="0.1" pntSurv="boundary" name="9-SP179652">
+			51.12761 14.972734
+		</CgPoint>
+		<CgPoint state="proposed" surveyHorizontalOrder="0.1" name="11-SP179652" pntSurv="boundary">
+			73.51292 65.938523
+		</CgPoint>
+	</CgPoints>
+	<Survey>
+		<SurveyHeader name="SP179652" headOfPower="Land Title Act 1994" surveyFormat="Standard" surveyPurpose="Subdivision" desc="Plan of Lots 1 &amp; 2 Cancelling Lot 80 on RP125412" type="surveyed" surveyStatus="Suitable for Lodgement" fieldNoteFlag="false" submissionDate="2005-06-07" documentStatus="Captured">
+			<CoordinateSystem horizontalDatum="Local" verticalDatum="Arbitrary" />
+			<Personnel name="Anthony John SCHMIDT" role="Signatory" regType="Cadastral Surveyor" regNumber="1234" />
+			<Personnel name="Antony Jon Pike" role="Surveyed By" regType="Registered" regNumber="762" />
+			<SurveyorCertificate name="Form13V2" certificateType="Form13V2" textCertificate="I, Anthony John SCHMIDT hereby certify that Antony Jon Pike (Registered) for whose work I accept responsibility surveyed the land comprised in this plan and that the plan is accurate, that the said survey was performed in accordance with the Survey and Mapping Infrastructure Act 2003 and Surveyors Act 2003 and associated Regulations and Standards and that the said survey was completed on 14/04/2005" surveyDate="2005-04-14" />
+			<AdministrativeArea adminAreaType="Local Government Area" adminAreaName="LOGAN CITY" adminAreaCode="4600" />
+			<AdministrativeArea adminAreaType="Locality" adminAreaName="LOGANHOLME" adminAreaCode="1572" />
+			<AdministrativeArea adminAreaType="Parish" adminAreaName="MACKENZIE" adminAreaCode="2968" />
+			<AdministrativeArea adminAreaType="County" adminAreaName="STANLEY" adminAreaCode="SL" />
+		</SurveyHeader>
+		<InstrumentSetup id="IS-10-SP179652" stationName="10-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="10-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-20-SP179652" stationName="20-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="20-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-21-SP179652" stationName="21-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="21-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-26-SP179652" stationName="26-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="26-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-27-SP179652" stationName="27-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="27-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-31-SP179652" stationName="31-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="31-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-32-SP179652" stationName="32-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="32-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-48-SP179652" stationName="48-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="48-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-49-SP179652" stationName="49-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="49-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-40-SP179652" stationName="40-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="40-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-41-SP179652" stationName="41-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="41-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-42-SP179652" stationName="42-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="42-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-43-SP179652" stationName="43-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="43-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-44-SP179652" stationName="44-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="44-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-45-SP179652" stationName="45-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="45-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-47-SP179652" stationName="47-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="47-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup id="IS-46-SP179652" stationName="46-SP179652" instrumentHeight="0">
+			<InstrumentPoint pntRef="46-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup instrumentHeight="0" id="IS-1-SP179652" stationName="1-SP179652">
+			<InstrumentPoint pntRef="1-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup instrumentHeight="0" id="IS-2-SP179652" stationName="2-SP179652">
+			<InstrumentPoint pntRef="2-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup instrumentHeight="0" id="IS-3-SP179652" stationName="3-SP179652">
+			<InstrumentPoint pntRef="3-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup instrumentHeight="0" id="IS-4-SP179652" stationName="4-SP179652">
+			<InstrumentPoint pntRef="4-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup instrumentHeight="0" id="IS-5-SP179652" stationName="5-SP179652">
+			<InstrumentPoint pntRef="5-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup instrumentHeight="0" id="IS-6-SP179652" stationName="6-SP179652">
+			<InstrumentPoint pntRef="6-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup instrumentHeight="0" id="IS-7-SP179652" stationName="7-SP179652">
+			<InstrumentPoint pntRef="7-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup instrumentHeight="0" id="IS-8-SP179652" stationName="8-SP179652">
+			<InstrumentPoint pntRef="8-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup instrumentHeight="0" id="IS-9-SP179652" stationName="9-SP179652">
+			<InstrumentPoint pntRef="9-SP179652" />
+		</InstrumentSetup>
+		<InstrumentSetup instrumentHeight="0" id="IS-11-SP179652" stationName="11-SP179652">
+			<InstrumentPoint pntRef="11-SP179652" />
+		</InstrumentSetup>
+		<ObservationGroup id="OG-1">
+			<ReducedObservation name="49" setupID="IS-10-SP179652" targetSetupID="IS-20-SP179652" azimuth="90.523" horizDistance="25.388" distanceType="measured" azimuthType="measured" purpose="normal" coordGeomRefs="CG-2-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="50" setupID="IS-20-SP179652" targetSetupID="IS-21-SP179652" azimuth="90.523" horizDistance="25.75" distanceType="measured" azimuthType="measured" purpose="normal" coordGeomRefs="CG-2-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="55" targetSetupID="IS-26-SP179652" azimuth="252.04" horizDistance="2.582" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-1-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="388" targetSetupID="IS-40-SP179652" azimuth="88.3" horizDistance="1.92" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-1-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="389" targetSetupID="IS-41-SP179652" azimuth="259.3" horizDistance="1.012" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-2-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="390" targetSetupID="IS-42-SP179652" azimuth="253.001" horizDistance="3.871" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-2-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="54" azimuth="350.093" horizDistance="256.524" distanceType="measured" azimuthType="measured" purpose="traverse" targetSetupID="IS-1-SP179652" setupID="IS-2-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="53" azimuth="79.3" horizDistance="15.387" distanceType="measured" azimuthType="measured" purpose="traverse" targetSetupID="IS-2-SP179652" setupID="IS-3-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="56" targetSetupID="IS-27-SP179652" azimuth="176" horizDistance="5.63" distanceType="measured" azimuthType="measured" purpose="normal" coordGeomRefs="CG-2-SP179652" setupID="IS-4-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="391" targetSetupID="IS-43-SP179652" azimuth="60.11" horizDistance="3.415" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-4-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="392" targetSetupID="IS-44-SP179652" azimuth="97.16" horizDistance="12.01" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-4-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="52" azimuth="356" horizDistance="2.417" distanceType="measured" azimuthType="measured" purpose="traverse" targetSetupID="IS-3-SP179652" setupID="IS-4-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="51" setupID="IS-21-SP179652" azimuth="90.523" horizDistance="36" distanceType="measured" azimuthType="measured" purpose="normal" coordGeomRefs="CG-2-SP179652" targetSetupID="IS-4-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="393" targetSetupID="IS-45-SP179652" azimuth="68.24" horizDistance="3.865" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-5-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="57" setupID="IS-27-SP179652" azimuth="176" horizDistance="26.674" distanceType="measured" azimuthType="measured" purpose="normal" coordGeomRefs="CG-1-SP179652" targetSetupID="IS-5-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="58" azimuth="176" horizDistance="21.606" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-5-SP179652" targetSetupID="IS-6-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="60" targetSetupID="IS-31-SP179652" azimuth="73.58" horizDistance="17.285" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-7-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="386" targetSetupID="IS-47-SP179652" azimuth="130.193" horizDistance="11.273" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-7-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="387" targetSetupID="IS-46-SP179652" azimuth="33.124" horizDistance="9.705" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-7-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="59" azimuth="188" horizDistance="10.742" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-6-SP179652" targetSetupID="IS-7-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="65" targetSetupID="IS-48-SP179652" azimuth="35.14" horizDistance="4.413" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-8-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="63" targetSetupID="IS-10-SP179652" azimuth="0.523" horizDistance="32.187" distanceType="measured" azimuthType="measured" purpose="normal" coordGeomRefs="CG-2-SP179652" setupID="IS-9-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="64" azimuth="180.523" horizDistance="32.167" distanceType="measured" azimuthType="measured" purpose="traverse" targetSetupID="IS-8-SP179652" setupID="IS-9-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="62" setupID="IS-32-SP179652" azimuth="270.523" horizDistance="50.618" distanceType="measured" azimuthType="measured" purpose="normal" coordGeomRefs="CG-2-SP179652" targetSetupID="IS-9-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="67" targetSetupID="IS-27-SP179652" azimuth="85.36" horizDistance="37.156" distanceType="measured" azimuthType="measured" purpose="normal" coordGeomRefs="CG-2-SP179652 CG-1-SP179652" setupID="IS-11-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="385" targetSetupID="IS-49-SP179652" azimuth="296.35" horizDistance="6.305" distanceType="measured" azimuthType="measured" purpose="traverse" setupID="IS-11-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="66" setupID="IS-32-SP179652" azimuth="0.523" horizDistance="23.161" distanceType="measured" azimuthType="measured" purpose="normal" coordGeomRefs="CG-2-SP179652 CG-1-SP179652" targetSetupID="IS-11-SP179652" equipmentUsed="theodolite EDM" />
+			<ReducedObservation name="61" setupID="IS-5-SP179652" targetSetupID="IS-32-SP179652" azimuth="270.523" horizDistance="39.265" distanceType="measured" azimuthType="measured" purpose="normal" coordGeomRefs="CG-1-SP179652" equipmentUsed="theodolite EDM" />
+		</ObservationGroup>
+	</Survey>
+	<CoordinateSystem datum="OfPlan" desc="RP125412" />
+	<Monuments>
+		<Monument name="797" pntRef="41-SP179652" state="original" type="pin" condition="reliable" />
+		<Monument name="798" pntRef="40-SP179652" state="original" type="screw" condition="reliable" originSurvey="SP146220" />
+		<Monument name="799" pntRef="47-SP179652" state="original" type="nail" condition="reliable" originSurvey="IS103850" />
+		<Monument name="802" pntRef="27-SP179652" state="new" type="peg" condition="reliable" />
+		<Monument name="804" pntRef="48-SP179652" state="original" type="pin" condition="reliable" originSurvey="IS103850" />
+		<Monument name="808" pntRef="10-SP179652" state="original" type="peg" condition="not found" />
+		<Monument name="809" pntRef="10-SP179652" state="new" type="peg" condition="reliable" />
+		<Monument name="810" pntRef="10-SP179652" state="new" type="occupation" condition="reliable" desc="CEN GIFP 0.17N 0.15E" />
+		<Monument name="811" pntRef="32-SP179652" state="new" type="peg" condition="reliable" />
+		<Monument name="814" pntRef="31-SP179652" state="original" type="plaque" condition="reliable" />
+		<Monument name="820" pntRef="21-SP179652" state="new" type="nail" condition="reliable" />
+		<Monument name="821" pntRef="20-SP179652" state="new" type="nail" condition="reliable" />
+		<Monument name="822" pntRef="42-SP179652" state="original" type="nail" condition="reliable" originSurvey="IS179365" />
+		<Monument name="823" pntRef="44-SP179652" state="new" type="screw" condition="reliable" />
+		<Monument name="824" pntRef="45-SP179652" state="new" type="screw" condition="reliable" />
+		<Monument name="825" pntRef="43-SP179652" state="new" type="screw" condition="reliable" />
+		<Monument name="826" pntRef="46-SP179652" state="original" type="screw" condition="reliable" originSurvey="IS103850" />
+		<Monument name="827" pntRef="49-SP179652" state="new" type="screw" condition="reliable" />
+		<Monument name="828" pntRef="26-SP179652" state="original" type="plaque" condition="reliable" />
+		<Monument name="801" state="original" type="pin" condition="reliable" pntRef="1-SP179652" />
+		<Monument name="818" state="original" type="peg" condition="not found" pntRef="2-SP179652" />
+		<Monument name="819" state="original" type="peg" condition="not found" pntRef="3-SP179652" />
+		<Monument name="816" state="original" type="peg" condition="not found" pntRef="4-SP179652" />
+		<Monument name="817" state="new" type="peg" condition="reliable" pntRef="4-SP179652" />
+		<Monument name="812" state="original" type="peg" condition="not found" pntRef="5-SP179652" />
+		<Monument name="813" state="new" type="peg" condition="reliable" pntRef="5-SP179652" />
+		<Monument name="815" state="original" type="peg" condition="not found" pntRef="6-SP179652" />
+		<Monument name="800" state="original" type="peg" condition="not found" pntRef="7-SP179652" />
+		<Monument name="805" state="original" type="peg" condition="reliable" pntRef="8-SP179652" />
+		<Monument name="806" state="original" type="peg" condition="not found" pntRef="9-SP179652" />
+		<Monument name="807" state="new" type="peg" condition="reliable" pntRef="9-SP179652" />
+		<Monument name="803" state="new" type="peg" condition="reliable" pntRef="11-SP179652" />
+	</Monuments>
+</LandXML>

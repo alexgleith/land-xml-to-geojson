@@ -1,0 +1,24 @@
+{
+  "name": "land-xml-to-geojson",
+  "version": "0.0.1",
+  "description": "A LandXML to GeoJSON converter",
+  "main": "index",
+  "author": "Alex Leith",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@turf/helpers": "^6.0.1",
+    "fs": "^0.0.1-security",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "load-json-file": "^4.0.0",
+    "tape": "^4.9.0",
+    "write-json-file": "^2.3.0"
+  }
+}
