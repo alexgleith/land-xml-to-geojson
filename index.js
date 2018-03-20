@@ -1,9 +1,13 @@
 const helpers = require('@turf/helpers')
-const xml2js = require('xml2js')
-const proj4 = require('proj4')
 const point = helpers.point
 const polygon = helpers.polygon
 const featureCollection = helpers.featureCollection
+
+// Terrible workaround for proj4 not working right
+var proj4 = require('proj4')
+if (proj4.default) {
+    proj4 = proj4.default
+}
 
 /**
  * Convert a LandXML file to GeoJSON
@@ -61,7 +65,7 @@ function convert(xml) {
 
                 var startPoint = points[start]
                 if (!startPoint) {
-                    console.log('Failed to get start point', start, startPoint)
+                    // console.log('Failed to get start point', start, startPoint)
                 } else {
                     // Start creating the polygon
                     coords.push(points[start])
@@ -84,10 +88,10 @@ function convert(xml) {
                 }
                 polygons.push(polygon(coords, parameters))
             } else {
-                console.log("Couldn't create a polygon because we found less than 2 coords")
+                // console.log("Couldn't create a polygon because we found less than 2 coords")
             }
         } else {
-            console.log("No geometry")
+            // console.log("No geometry")
         }
     }
 
